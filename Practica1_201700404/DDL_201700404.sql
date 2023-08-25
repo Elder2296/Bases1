@@ -1,6 +1,5 @@
-
 -- Generado por Oracle SQL Developer Data Modeler 23.1.0.087.0806
---   en:        2023-08-25 11:06:08 CST
+--   en:        2023-08-25 12:30:12 CST
 --   sitio:      Oracle Database 21c
 --   tipo:      Oracle Database 21c
 
@@ -49,11 +48,11 @@ COMMENT ON COLUMN clasificacion.edad_maxima IS
 ALTER TABLE clasificacion ADD CONSTRAINT clasificacion_pk PRIMARY KEY ( clasificacion_id );
 
 CREATE TABLE compra (
-    compra_id           INTEGER NOT NULL,
-    fecha               DATE NOT NULL,
-    total               NUMBER NOT NULL,
-    tipo_pago_tipo_pago INTEGER NOT NULL,
-    usuario_usuario_id  INTEGER NOT NULL
+    compra_id              INTEGER NOT NULL,
+    fecha                  DATE NOT NULL,
+    total                  NUMBER NOT NULL,
+    usuario_usuario_id     INTEGER NOT NULL,
+    tipo_pago_tipo_pago_id INTEGER NOT NULL
 );
 
 COMMENT ON COLUMN compra.compra_id IS
@@ -126,6 +125,11 @@ COMMENT ON COLUMN detalle_compra.precio_con_descuento IS
 
 ALTER TABLE detalle_compra ADD CONSTRAINT detalle_compra_pk PRIMARY KEY ( detalle_id );
 
+CREATE TABLE disponibilidad (
+    pais_pais_id   INTEGER NOT NULL,
+    juego_juego_id INTEGER NOT NULL
+);
+
 CREATE TABLE genero_juego (
     genero_id          INTEGER NOT NULL,
     genero_descripcion VARCHAR2(200) NOT NULL
@@ -139,13 +143,13 @@ COMMENT ON COLUMN genero_juego.genero_descripcion IS
 
 ALTER TABLE genero_juego ADD CONSTRAINT genero_juego_pk PRIMARY KEY ( genero_id );
 
-CREATE TABLE historial_tarjeta_uso (
-    compra_compra_id   INTEGER NOT NULL,
-    tarjeta_tarjeta_id INTEGER NOT NULL
+CREATE TABLE history (
+    tarjeta_tarjeta_id INTEGER NOT NULL,
+    compra_compra_id   INTEGER NOT NULL
 );
 
-CREATE UNIQUE INDEX historial_tarjeta_uso__idx ON
-    historial_tarjeta_uso (
+CREATE UNIQUE INDEX history__idx ON
+    history (
         compra_compra_id
     ASC );
 
@@ -209,11 +213,6 @@ COMMENT ON COLUMN pais.extencion IS
     'extencion telefonica';
 
 ALTER TABLE pais ADD CONSTRAINT pais_pk PRIMARY KEY ( pais_id );
-
-CREATE TABLE politica_disponibilidad (
-    pais_pais_id   INTEGER NOT NULL,
-    juego_juego_id INTEGER NOT NULL
-);
 
 CREATE TABLE promocion (
     promocion_id    INTEGER,
@@ -279,17 +278,17 @@ COMMENT ON COLUMN tarjeta.fecha_vencimiento IS
 ALTER TABLE tarjeta ADD CONSTRAINT tarjeta_pk PRIMARY KEY ( tarjeta_id );
 
 CREATE TABLE tipo_pago (
-    tipo_pago   INTEGER NOT NULL,
-    descripcion VARCHAR2(150) NOT NULL
+    tipo_pago_id INTEGER NOT NULL,
+    descripcion  VARCHAR2(150) NOT NULL
 );
 
-COMMENT ON COLUMN tipo_pago.tipo_pago IS
+COMMENT ON COLUMN tipo_pago.tipo_pago_id IS
     'identificador unico';
 
 COMMENT ON COLUMN tipo_pago.descripcion IS
-    'breve descripcion del pago';
+    'descripcion del meotodo de pago';
 
-ALTER TABLE tipo_pago ADD CONSTRAINT tipo_pago_pk PRIMARY KEY ( tipo_pago );
+ALTER TABLE tipo_pago ADD CONSTRAINT tipo_pago_pk PRIMARY KEY ( tipo_pago_id );
 
 CREATE TABLE usuario (
     usuario_id       INTEGER NOT NULL,
@@ -335,8 +334,8 @@ ALTER TABLE biblioteca
         REFERENCES detalle_compra ( detalle_id );
 
 ALTER TABLE compra
-    ADD CONSTRAINT compra_tipo_pago_fk FOREIGN KEY ( tipo_pago_tipo_pago )
-        REFERENCES tipo_pago ( tipo_pago );
+    ADD CONSTRAINT compra_tipo_pago_fk FOREIGN KEY ( tipo_pago_tipo_pago_id )
+        REFERENCES tipo_pago ( tipo_pago_id );
 
 ALTER TABLE compra
     ADD CONSTRAINT compra_usuario_fk FOREIGN KEY ( usuario_usuario_id )
@@ -362,14 +361,20 @@ ALTER TABLE detalle_compra
     ADD CONSTRAINT detalle_compra_juego_fk FOREIGN KEY ( juego_juego_id )
         REFERENCES juego ( juego_id );
 
---  ERROR: FK name length exceeds maximum allowed length(30) 
-ALTER TABLE historial_tarjeta_uso
-    ADD CONSTRAINT historial_tarjeta_uso_compra_fk FOREIGN KEY ( compra_compra_id )
+ALTER TABLE disponibilidad
+    ADD CONSTRAINT disponibilidad_juego_fk FOREIGN KEY ( juego_juego_id )
+        REFERENCES juego ( juego_id );
+
+ALTER TABLE disponibilidad
+    ADD CONSTRAINT disponibilidad_pais_fk FOREIGN KEY ( pais_pais_id )
+        REFERENCES pais ( pais_id );
+
+ALTER TABLE history
+    ADD CONSTRAINT history_compra_fk FOREIGN KEY ( compra_compra_id )
         REFERENCES compra ( compra_id );
 
---  ERROR: FK name length exceeds maximum allowed length(30) 
-ALTER TABLE historial_tarjeta_uso
-    ADD CONSTRAINT historial_tarjeta_uso_tarjeta_fk FOREIGN KEY ( tarjeta_tarjeta_id )
+ALTER TABLE history
+    ADD CONSTRAINT history_tarjeta_fk FOREIGN KEY ( tarjeta_tarjeta_id )
         REFERENCES tarjeta ( tarjeta_id );
 
 ALTER TABLE juego
@@ -387,16 +392,6 @@ ALTER TABLE lista_deseos
 ALTER TABLE lista_deseos
     ADD CONSTRAINT lista_deseos_usuario_fk FOREIGN KEY ( usuario_usuario_id )
         REFERENCES usuario ( usuario_id );
-
---  ERROR: FK name length exceeds maximum allowed length(30) 
-ALTER TABLE politica_disponibilidad
-    ADD CONSTRAINT politica_disponibilidad_juego_fk FOREIGN KEY ( juego_juego_id )
-        REFERENCES juego ( juego_id );
-
---  ERROR: FK name length exceeds maximum allowed length(30) 
-ALTER TABLE politica_disponibilidad
-    ADD CONSTRAINT politica_disponibilidad_pais_fk FOREIGN KEY ( pais_pais_id )
-        REFERENCES pais ( pais_id );
 
 ALTER TABLE promocion
     ADD CONSTRAINT promocion_juego_fk FOREIGN KEY ( juego_juego_id )
@@ -456,5 +451,5 @@ ALTER TABLE usuario
 -- ORDS ENABLE SCHEMA                       0
 -- ORDS ENABLE OBJECT                       0
 -- 
--- ERRORS                                   4
+-- ERRORS                                   0
 -- WARNINGS                                 0
