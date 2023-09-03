@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TIE_INV" directorySegmentName="seg_0" id="FEA8CE3C-9181-2833-7E1B-EE0BD020F013">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-03 02:24:46 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C2C1F6E-2BD0-FCBF-247B-8C062FE5AF9C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51C6456D-212C-3E64-A1EB-3B5A265325BB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

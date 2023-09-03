@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EMP_ROL" directorySegmentName="seg_0" id="8D399798-749B-D6F4-898B-31903BB01221">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-03 02:21:51 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A241A7CE-0CB6-E4F0-0675-AFD598499D19</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5B080AEE-8649-6E9F-3AE4-BCC21AC758B5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
