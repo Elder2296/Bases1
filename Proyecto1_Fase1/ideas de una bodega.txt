@@ -1,0 +1,7 @@
+1. Una bodega puede tener muchos productos
+2. Una bodega puede hacer muchos pedidos
+3. Una bodega tiene ingreso de productos.
+4. Una bodega tiene salidas de producto.
+5. Una tieda solo tiene una bodega
+6. Una bodega tiene que ir actualizando su inventario
+7. Una bodega tieen que registrar las salidas de producto
