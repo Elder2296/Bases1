@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TIE_EMP" directorySegmentName="seg_0" id="815A0F27-9029-90C7-1A55-27A52DF39F92">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:20:53 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FL_CLI_FAC" directorySegmentName="seg_0" id="FF500656-0472-B186-1657-DE38EC3A7BDB">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:44:25 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<sourcePk>F621C9E1-04D8-C010-91A3-2854474D13A9</sourcePk>
+<sourcePk>0F7F29A5-B2CB-CF2D-CC00-C6EBD55C6C6D</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>8C2C1F6E-2BD0-FCBF-247B-8C062FE5AF9C</sourceEntity>
+<sourceEntity>5CFE12B4-06F6-62F9-94B6-CF84F80FEFAA</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>5B080AEE-8649-6E9F-3AE4-BCC21AC758B5</targetEntity>
+<targetEntity>50C377E0-94D7-F354-A183-C956058FE6C6</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

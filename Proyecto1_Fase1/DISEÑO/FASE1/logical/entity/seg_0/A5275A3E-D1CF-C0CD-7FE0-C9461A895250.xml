@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29B10554-A1B0-48DE-AEFA-2194D0F7FC87" name="PRODUCTO">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:24:03 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5275A3E-D1CF-C0CD-7FE0-C9461A895250" name="DETALLE">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:36:05 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SKU" id="A3169A54-9873-59DE-E824-4EA2EE2FEF65">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:29:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[clave unica]]></commentInRDBMS>
+<Attribute name="ID_DETALLE" id="ED8A1225-9813-B65A-77A0-592BB50C51C7">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:36:13 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -28,58 +27,58 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SKU2" id="53622B10-066C-CB7E-9A2F-7F8AEE8B0250">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:30:13 UTC</createdTime>
+<Attribute name="ID_PEDIDO" id="2C911AD4-7E8E-23CD-D043-C93B72859F9F">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:39:21 UTC</createdTime>
+<generatorID>540805F6-38AA-9B85-126E-93D6A480DA8A</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="875D2F64-47E4-9F7A-4B08-F4D7A92A5682">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:31:12 UTC</createdTime>
+<Attribute name="SKU" id="4FF39139-3E6F-08DB-ED66-C28211B0C866">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:39:49 UTC</createdTime>
+<generatorID>8843FE21-32F2-7D88-A82F-DB42ED66020D</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
+<referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PRECIO" id="73E983DA-C5AC-33DF-3A70-68ED07F9D357">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:31:41 UTC</createdTime>
+<Attribute name="CANTIDAD" id="737C3CF8-CFD6-B069-B8A1-7EB4258C5906">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:40:31 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>11</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="663EF781-E8D4-CABA-3D09-60D982518668" name="PRODUCTO PK">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:29:58 UTC</createdTime>
+<identifier id="27D75F5D-4E77-C857-6B07-AD626D9345B0" name="DETALLE PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:36:53 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A3169A54-9873-59DE-E824-4EA2EE2FEF65</attributeRef>
+<attributeRef>ED8A1225-9813-B65A-77A0-592BB50C51C7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

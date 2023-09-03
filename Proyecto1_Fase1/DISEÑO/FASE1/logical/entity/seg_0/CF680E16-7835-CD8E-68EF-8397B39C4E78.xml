@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51C6456D-212C-3E64-A1EB-3B5A265325BB" name="INVENTARIO">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:23:48 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF680E16-7835-CD8E-68EF-8397B39C4E78" name="GENERO">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:12:42 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,33 +15,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SKU" id="52C519EF-44A2-3BEA-73D3-C878424E3696">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:30:08 UTC</createdTime>
-<generatorID>67AEEC9A-B054-D836-F545-984F2AA745F6</generatorID>
+<Attribute name="ID_GEN" id="44E6649B-0B5B-D2C0-1D8C-35C0749C976C">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:23:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[									]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_ST" id="0EC63A43-6CA9-B2DA-AFF9-2DBD13BA866B">
+<Attribute name="GENERO" id="48154827-C872-B5F4-4FAC-55EE86506EFB">
 <createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:27:06 UTC</createdTime>
-<generatorID>FEA8CE3C-9181-2833-7E1B-EE0BD020F013</generatorID>
+<createdTime>2023-09-03 03:23:52 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>FC901C49-2E93-3445-689B-55DF436A1A21</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6260B8F2-AB42-8691-9FC6-269483FCEE34" name="GENERO PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:23:11 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44E6649B-0B5B-D2C0-1D8C-35C0749C976C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

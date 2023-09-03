@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50C377E0-94D7-F354-A183-C956058FE6C6" name="FACTURA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:42:12 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUM_FACT" id="4AC3876E-0EEF-398F-0B79-790503B6342E">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:42:23 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL" id="19A899E9-4516-C345-E153-8E342496BFE5">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:42:59 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PEDIDO" id="FF0F3DB0-BD93-C323-B968-51F1C111B9BF">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:43:33 UTC</createdTime>
+<generatorID>655C4E58-673B-5FB8-5082-FFE2DB558400</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_COMPRA" id="7C139726-8F82-C579-33C3-FEB2EC311F3C">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:43:59 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENT" id="DEE09CF3-8FFB-DA42-E2DE-1900EFC86852">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:44:25 UTC</createdTime>
+<generatorID>FF500656-0472-B186-1657-DE38EC3A7BDB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>A416145C-30EB-DE0C-EADA-8D0436D115BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT" id="4730A56D-86B8-B8CC-3799-589901E1F162">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:44:25 UTC</createdTime>
+<generatorID>FF500656-0472-B186-1657-DE38EC3A7BDB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>6F821D0B-D031-1582-9BA0-0054B93B3D36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9810B08F-6456-1C15-A3C2-5F2878E2FF91" name="FACTURA PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:42:57 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AC3876E-0EEF-398F-0B79-790503B6342E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
