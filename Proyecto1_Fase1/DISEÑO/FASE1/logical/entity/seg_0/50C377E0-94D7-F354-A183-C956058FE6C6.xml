@@ -79,20 +79,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIT" id="4730A56D-86B8-B8CC-3799-589901E1F162">
+<Attribute name="DIRECCION" id="8E07A5C3-85FD-3CED-9F89-ACB5DD2964EF">
 <createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:44:25 UTC</createdTime>
-<generatorID>FF500656-0472-B186-1657-DE38EC3A7BDB</generatorID>
+<createdTime>2023-09-03 04:02:30 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>6F821D0B-D031-1582-9BA0-0054B93B3D36</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

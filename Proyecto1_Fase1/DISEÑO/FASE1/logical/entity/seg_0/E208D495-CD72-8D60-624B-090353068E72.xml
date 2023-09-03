@@ -55,19 +55,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIT" id="BE359698-5D41-9732-42E6-384865F17F8E">
+<Attribute name="NIT" id="DCC36678-BE6E-06F9-FF81-A541701C5B30">
 <createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:32:08 UTC</createdTime>
-<generatorID>EB0042E0-2D88-9720-5688-3308D14B6DF2</generatorID>
+<createdTime>2023-09-03 03:54:31 UTC</createdTime>
+<generatorID>E1379022-507F-C033-1F2D-93AB9FC58FDE</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>6F821D0B-D031-1582-9BA0-0054B93B3D36</referedAttribute>
+<referedAttribute>948639EA-972C-9CBA-5C71-8E4BEE690B8C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PT" id="5F8FCB03-7C0C-E5A9-14C3-6F56E7F88497">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-03 03:59:22 UTC</createdTime>
+<generatorID>CC3F1B58-0BE1-39F1-1DC9-FBD3E50661FC</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>12CB89D3-07C5-31A5-C915-62ADBE385FE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
