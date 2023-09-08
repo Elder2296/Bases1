@@ -43,5 +43,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DISPONIBILIDAD" id="235A66E7-9B75-A791-23E3-8F9B6B037444">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-07 03:58:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[lleva la cantidad existente en unidades de ese producto.]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

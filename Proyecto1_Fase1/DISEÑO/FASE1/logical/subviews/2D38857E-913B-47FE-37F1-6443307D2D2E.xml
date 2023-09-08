@@ -69,7 +69,17 @@
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="E5AE1AAA-8448-CD1C-9906-08831BDAC425" otype="Note" vid="967AA7B9-91C2-C114-CFA9-A2EA2FF7E508">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1315" y="13" width="337" height="201"/>
-<comment>en el pedido hay que analizar si se agrega en esa entidad el costo de envío o bien en una entidad Envío o agregar un campo tarifa de envío </comment>
+<comment>en el pedido hay que analizar si se agrega en esa entidad el costo de envío o bien en una entidad Envío o agregar un campo tarifa de envío 
+
+¿Como llevamos el registro de entradas de inventario?
+ - se me ocurre agregar otra tabla cruzada entre tienda y producto, para llevar el historial de 
+   transacciones, y agregarle un tabla de tipos de transacción para validar, sí es venta, pedido de product   o, devolución
+
+PEDIDO-FACTURA
+un pedido tendra una factura.
+
+
+</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="FE4E0783-5303-5D85-61FF-960378DD125B" otype="Entity" vid="CBC83895-867D-DB7E-289E-7A0538F127E3">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

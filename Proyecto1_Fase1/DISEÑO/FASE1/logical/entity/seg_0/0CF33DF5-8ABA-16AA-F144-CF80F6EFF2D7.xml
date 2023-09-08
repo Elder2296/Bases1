@@ -42,6 +42,19 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="APELLIDOS" id="35B7FA6F-1687-D4B6-83ED-EDDFC208B64C">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-07 04:48:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellidos del cliente]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="DIRECCION" id="3BB7C97B-1431-052A-CD4C-C69ECDD4ED40">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:53:33 UTC</createdTime>
