@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MET_FAC" directorySegmentName="seg_0" id="4B5E11B7-B0B0-8D6E-7196-BC626D4322CB">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-08 22:45:09 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<sourcePk>B90D3C6F-6E19-8779-4841-8E9DC3BE96F1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8B38EFF-7D9F-25D3-7D9D-DE0D36E090AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>50C377E0-94D7-F354-A183-C956058FE6C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

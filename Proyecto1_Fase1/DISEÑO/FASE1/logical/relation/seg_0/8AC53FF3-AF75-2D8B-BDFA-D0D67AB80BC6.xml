@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TIP_HIS" directorySegmentName="seg_0" id="8AC53FF3-AF75-2D8B-BDFA-D0D67AB80BC6">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-08 22:13:04 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<sourcePk>83D55D7B-915A-1874-B686-685CFA226FD9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7261EE6B-E040-6FC9-75F4-5C4343D63559</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8AEEF44C-74E4-781D-4A6C-F8016CE37E4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

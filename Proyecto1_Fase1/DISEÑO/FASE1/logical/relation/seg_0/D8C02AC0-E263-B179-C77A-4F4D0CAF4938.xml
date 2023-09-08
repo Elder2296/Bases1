@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLI_TAR" directorySegmentName="seg_0" id="D8C02AC0-E263-B179-C77A-4F4D0CAF4938">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-08 22:46:17 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<sourcePk>1C1D76C7-87C6-3236-1F13-0D56B3DFC8A2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0CF33DF5-8ABA-16AA-F144-CF80F6EFF2D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E21796BE-8C6A-0952-171E-944EFFDA71AB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
