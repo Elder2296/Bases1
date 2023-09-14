@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PED_PROV" directorySegmentName="seg_0" id="D8035FA3-238D-906D-396E-0358F32D9A4B">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:30:15 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<sourcePk>A88FA865-13A9-32FB-F33F-4B58DA6169ED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D4B26C31-A289-9019-CB8B-BDDDEF29BF45</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2C0267C5-05F1-F808-A7D8-E1C339299247</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

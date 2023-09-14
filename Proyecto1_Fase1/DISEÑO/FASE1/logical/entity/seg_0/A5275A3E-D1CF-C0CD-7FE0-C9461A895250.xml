@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PEDIDO" id="2C911AD4-7E8E-23CD-D043-C93B72859F9F">
+<Attribute name="VENTA_ID" id="2C911AD4-7E8E-23CD-D043-C93B72859F9F">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:39:21 UTC</createdTime>
 <generatorID>540805F6-38AA-9B85-126E-93D6A480DA8A</generatorID>

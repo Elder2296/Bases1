@@ -38,20 +38,6 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PEDIDO" id="FF0F3DB0-BD93-C323-B968-51F1C111B9BF">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:43:33 UTC</createdTime>
-<generatorID>655C4E58-673B-5FB8-5082-FFE2DB558400</generatorID>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="FECHA_COMPRA" id="7C139726-8F82-C579-33C3-FEB2EC311F3C">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:43:59 UTC</createdTime>
@@ -102,6 +88,50 @@
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <referedAttribute>F37A9BB1-564B-C31A-0F08-1A44F046D13F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENTA_ID" id="1EBA570C-A017-AB7C-B1E3-DB8AEDF21997">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:43:50 UTC</createdTime>
+<generatorID>33D42AA9-9ED6-F107-38A2-4B3804156C9C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COSTO_ENVIO" id="F40D048E-A422-D490-1CC4-D920FC50B10A">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 23:04:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Define el costo del envió, si el valor es 0, es porque es compra directa en tienda, si es diferente, es con servicio a domicilio]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,15,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOTA_CREDITO_ID" id="2CA80E1A-4AD2-5EA1-8D42-17C5227D03CF">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 03:15:03 UTC</createdTime>
+<generatorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B4DD8032-397C-47D9-2301-E70C472F5C3B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

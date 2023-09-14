@@ -28,18 +28,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="SKU2" id="53622B10-066C-CB7E-9A2F-7F8AEE8B0250">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:30:13 UTC</createdTime>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DESCRIPCION" id="875D2F64-47E4-9F7A-4B08-F4D7A92A5682">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:31:12 UTC</createdTime>

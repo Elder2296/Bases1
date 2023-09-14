@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA42EBBA-A6BC-0C8F-9CCD-F98FCDE536A4" name="CLASIFICACION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4B26C31-A289-9019-CB8B-BDDDEF29BF45" name="PEDIDO">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:27:24 UTC</createdTime>
+<createdTime>2023-09-14 04:28:15 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,33 +15,32 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="SKU" id="87C3F0C5-6188-4054-B1BF-05848A32B785">
+<Attribute name="PEDIDO_ID" id="F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:30:08 UTC</createdTime>
-<generatorID>9E1D2060-BA70-698C-2634-FB70A15B4825</generatorID>
+<createdTime>2023-09-14 04:32:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CATEGORIA_ID" id="7FA8A7A3-930A-2BD1-8711-84BAA2F1A9DD">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-13 21:59:14 UTC</createdTime>
-<generatorID>CE0AE01D-8139-7808-D981-CAACD3ECE1FD</generatorID>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<referedAttribute>45921F6E-CB96-6790-AA5B-399078E31021</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A88FA865-13A9-32FB-F33F-4B58DA6169ED" name="PEDIDO PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:33:20 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

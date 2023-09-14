@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CAT_PRO" directorySegmentName="seg_0" id="CE0AE01D-8139-7808-D981-CAACD3ECE1FD">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLI_DIR" directorySegmentName="seg_0" id="275F738E-8781-5495-019B-C59B70ACB75E">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:28:15 UTC</createdTime>
+<createdTime>2023-09-13 22:18:03 UTC</createdTime>
+<comment><![CDATA[Un cliente tiene muchas direccion]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<sourcePk>686D1E10-5914-E3D3-B230-4CC6B2431525</sourcePk>
+<sourcePk>1C1D76C7-87C6-3236-1F13-0D56B3DFC8A2</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>FE4E0783-5303-5D85-61FF-960378DD125B</sourceEntity>
+<sourceEntity>0CF33DF5-8ABA-16AA-F144-CF80F6EFF2D7</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>DA42EBBA-A6BC-0C8F-9CCD-F98FCDE536A4</targetEntity>
+<targetEntity>7FFB355E-3BCC-F73E-03D5-47B833CEDABA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

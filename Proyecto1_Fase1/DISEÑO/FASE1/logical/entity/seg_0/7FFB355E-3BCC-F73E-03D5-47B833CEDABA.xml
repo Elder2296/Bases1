@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A794450-5FB8-7CAF-0B32-B12E253BF223" name="PAIS">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:13:22 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FFB355E-3BCC-F73E-03D5-47B833CEDABA" name="MIDIRECCION">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:14:11 UTC</createdTime>
+<comment><![CDATA[Maneja las direcciones del cliente.]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PAIS" id="8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:24:25 UTC</createdTime>
+<Attribute name="DIRECCION_ID" id="D527EE38-9D5D-4380-4213-145AFCDF5ED7">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:15:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[CODIGO UNICO DE DIRECCION]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -27,47 +29,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PAIS" id="8630D266-5AE4-4753-5E02-21F8D0FC5132">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:24:40 UTC</createdTime>
+<Attribute name="DIRECCION" id="B138D510-FCCD-77DF-0A48-4DCF42B55B22">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:16:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[direccion de entrega]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DIVISA" id="CE354EB5-12D3-4358-F1ED-52F90F834450">
+<Attribute name="CLIENTE_ID" id="1E514E6C-A121-84E0-C68C-1E3118D9A88D">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-13 22:01:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[Tipo de cambio del pais a comparación del dolar]]></commentInRDBMS>
+<createdTime>2023-09-13 22:21:39 UTC</createdTime>
+<generatorID>275F738E-8781-5495-019B-C59B70ACB75E</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>8721D3E8-AB56-925C-1731-5127193D1F28</referedAttribute>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>10</dataTypeScale>
-<ownDataTypeParameters>,15,10</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0893A680-FC8E-F991-F51B-79BA4E2A8C47" name="PAIS PK">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:24:38 UTC</createdTime>
+<identifier id="2DEB3F9F-BA4C-C7BB-7D37-EFDC126E26C5" name="MIDIRECCION PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:15:53 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB</attributeRef>
+<attributeRef>D527EE38-9D5D-4380-4213-145AFCDF5ED7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

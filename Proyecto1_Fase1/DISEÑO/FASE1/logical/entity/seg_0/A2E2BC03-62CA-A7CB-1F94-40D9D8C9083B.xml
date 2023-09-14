@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C2C1F6E-2BD0-FCBF-247B-8C062FE5AF9C" name="TIENDA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2E2BC03-62CA-A7CB-1F94-40D9D8C9083B" name="DELIVERY">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-03 02:19:38 UTC</createdTime>
+<createdTime>2023-09-13 23:09:10 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,23 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PAIS" id="118E5463-BFB7-9A3A-BCDB-DC9EDB523D59">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:25:03 UTC</createdTime>
-<generatorID>B4E85E93-221E-9340-A989-DB74DD4416A5</generatorID>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<referedAttribute>8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_ST" id="FC901C49-2E93-3445-689B-55DF436A1A21">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:26:52 UTC</createdTime>
+<Attribute name="ENTREGA_ID" id="BF7FCF89-FDA5-1CD0-9FAD-DFDC2DE5908A">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 23:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -41,46 +28,60 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE" id="9D809ED7-C721-8BC6-C854-9E4A7B114DD2">
+<Attribute name="VENTA_ID" id="678B5499-ACBF-523A-2D51-98310360401D">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-13 21:53:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[describe el nombre]]></commentInRDBMS>
+<createdTime>2023-09-13 23:11:44 UTC</createdTime>
+<generatorID>E7EA1D6A-682B-80AA-1361-4752CC255562</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DIRECCION" id="76D029AF-3985-17F5-5B2A-8577468315BF">
+<Attribute name="FECHA_ENTREGA" id="88518333-3A61-A187-B083-561845A428CC">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-13 21:54:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[descripcion de la direccion]]></commentInRDBMS>
+<createdTime>2023-09-13 23:13:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de entrega estimada]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMPLEADO_ID" id="5960B7E2-793F-B135-5A0B-75CD270C95A7">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 03:53:34 UTC</createdTime>
+<generatorID>1936E782-081B-4E92-1F6D-9A7000DB9889</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>6127ADED-7F94-452C-BD36-3D11009E1AF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F621C9E1-04D8-C010-91A3-2854474D13A9" name="TIENDA PK">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:27:02 UTC</createdTime>
+<identifier id="1348B48B-55CE-8373-60F0-172B6C5BD163" name="DELIVERY PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 23:10:07 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FC901C49-2E93-3445-689B-55DF436A1A21</attributeRef>
+<attributeRef>BF7FCF89-FDA5-1CD0-9FAD-DFDC2DE5908A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

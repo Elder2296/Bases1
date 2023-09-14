@@ -29,5 +29,60 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="EMPLEADO_ID" id="6127ADED-7F94-452C-BD36-3D11009E1AF8">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 03:52:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="764CB823-CAD4-CE5A-8C44-B7CC3B9115BB">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 03:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del empleado]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="6BBC2F93-4EA6-6DE1-FE2E-1D9ADE9CF9ED">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 03:54:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[Apellidos del empleado]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E35C584-4E12-9A95-FE2D-1E595CCF8745" name="EMPLEADO PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 03:53:06 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6127ADED-7F94-452C-BD36-3D11009E1AF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

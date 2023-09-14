@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CF33DF5-8ABA-16AA-F144-CF80F6EFF2D7" name="CLIENT">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:52:32 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C0267C5-05F1-F808-A7D8-E1C339299247" name="PROVEEDOR">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:18:22 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="CLIENTE_ID" id="8721D3E8-AB56-925C-1731-5127193D1F28">
+<Attribute name="PROVEEDOR_ID" id="7DF1DA47-0002-015E-169D-710056A97667">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-13 22:21:19 UTC</createdTime>
-<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<createdTime>2023-09-14 04:18:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificacion unica]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -28,38 +28,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIT" id="948639EA-972C-9CBA-5C71-8E4BEE690B8C">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:52:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[numero de identificacion tributario]]></commentInRDBMS>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NOMBRE" id="B7B144C2-3402-C6A1-FE08-166B9ED2E709">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:53:05 UTC</createdTime>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="APELLIDOS" id="35B7FA6F-1687-D4B6-83ED-EDDFC208B64C">
+<Attribute name="RAZON_SOCIAL" id="DE92BC98-4213-8943-8AA0-260CAC1B6DA6">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-07 04:48:02 UTC</createdTime>
-<commentInRDBMS><![CDATA[apellidos del cliente]]></commentInRDBMS>
+<createdTime>2023-09-14 04:18:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la empresa que distribuye]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="41037D24-D376-226F-A75D-D919F2EF931E">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:19:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion de las oficinas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -69,9 +55,10 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DIRECCION" id="3BB7C97B-1431-052A-CD4C-C69ECDD4ED40">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:53:33 UTC</createdTime>
+<Attribute name="TELEFONO" id="DEB80122-594C-9410-AF9B-E0DC4165043A">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:20:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono de contacto]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -80,12 +67,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TELFONO" id="3BB6D30A-665A-2FB9-E05F-C1B1836A506A">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:53:47 UTC</createdTime>
+<Attribute name="EMAIL" id="F78990AE-02B5-B291-54C4-40A09153A0A5">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:21:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Email de contacto con el proveedor]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -94,32 +82,32 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PAIS" id="8767B5F2-4A77-DB14-331F-7EF17431CEE0">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:54:43 UTC</createdTime>
-<generatorID>D454EFBD-6047-BB76-7259-75BFDC34536C</generatorID>
+<Attribute name="NOMBRE_CONTACTO" id="B8BA525E-C441-6325-71D1-EFDDF89A0CEB">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:22:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL EJECUTIVO DE VENTAS]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_GEN" id="0D300AEB-E506-08FE-C838-3DD87AEB2376">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:55:03 UTC</createdTime>
-<generatorID>8FA0B137-EDF2-A1A2-7E73-F366EB768360</generatorID>
+<Attribute name="PEDIDO_ID" id="82F1A0F8-3606-8B92-EF6C-68462AA9F4F6">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:33:41 UTC</createdTime>
+<generatorID>D8035FA3-238D-906D-396E-0358F32D9A4B</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>44E6649B-0B5B-D2C0-1D8C-35C0749C976C</referedAttribute>
+<referedAttribute>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -127,16 +115,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1C1D76C7-87C6-3236-1F13-0D56B3DFC8A2" name="CLIENT PK">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:53:02 UTC</createdTime>
+<identifier id="7F1901CE-A9FB-5DDA-B46B-C31FA0930FFB" name="PROVEEDOR PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:18:44 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8721D3E8-AB56-925C-1731-5127193D1F28</attributeRef>
+<attributeRef>7DF1DA47-0002-015E-169D-710056A97667</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

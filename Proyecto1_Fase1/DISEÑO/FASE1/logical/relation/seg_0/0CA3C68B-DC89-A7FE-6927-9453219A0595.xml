@@ -1,17 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PT_PEDIDO" directorySegmentName="seg_0" id="CC3F1B58-0BE1-39F1-1DC9-FBD3E50661FC">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:59:22 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIR_VEN" directorySegmentName="seg_0" id="0CA3C68B-DC89-A7FE-6927-9453219A0595">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:38:04 UTC</createdTime>
+<comment><![CDATA[Una venta va a tener una direccion de entrega, y una direccion de entrega puede estar en muchas ventas.]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<sourcePk>69EA9AC8-6DB1-1BE6-1D11-FF7F021F1577</sourcePk>
+<sourcePk>2DEB3F9F-BA4C-C7BB-7D37-EFDC126E26C5</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>BBD0853A-749C-CD3E-F166-EDCCE5E81800</sourceEntity>
+<sourceEntity>7FFB355E-3BCC-F73E-03D5-47B833CEDABA</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>E208D495-CD72-8D60-624B-090353068E72</targetEntity>
 <transferable>true</transferable>

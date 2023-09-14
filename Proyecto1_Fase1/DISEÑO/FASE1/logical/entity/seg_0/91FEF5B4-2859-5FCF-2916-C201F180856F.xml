@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7261EE6B-E040-6FC9-75F4-5C4343D63559" name="TIPO_TRANSACCION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91FEF5B4-2859-5FCF-2916-C201F180856F" name="NOTACREDITO">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-08 22:06:28 UTC</createdTime>
-<comment><![CDATA[lleva los tipos de transacciones de productos como entras de inventario, salidas como venta, devoluciones, traslados.]]></comment>
+<createdTime>2023-09-14 03:11:11 UTC</createdTime>
+<comment><![CDATA[lleva la lista de notas de credito]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -16,10 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="TIPO_TRANSACCION_ID" id="6C8D89C3-A8EA-DD45-F5B7-39E3D706819E">
+<Attribute name="NOTA_CREDITO_ID" id="B4DD8032-397C-47D9-2301-E70C472F5C3B">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-08 22:08:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[valor unico]]></commentInRDBMS>
+<createdTime>2023-09-14 03:11:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -29,46 +29,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOMBRE_TIPO" id="4484C832-C4A2-004B-20C2-DB14B8ED8EFB">
+<Attribute name="FECHA" id="91E85898-BD73-4958-5508-25563D95E306">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-08 22:09:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nombre corto del tipo de transaccion]]></commentInRDBMS>
+<createdTime>2023-09-14 03:12:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en que se realizó la nota de credito]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION" id="D33EE09D-20A4-B00A-CA48-29E59AA38BF3">
+<Attribute name="NUM_FACT" id="68B587C7-9D61-C081-D311-AC1CD780762E">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-08 22:09:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[Describe el tipo de transaccion]]></commentInRDBMS>
+<createdTime>2023-09-14 03:15:26 UTC</createdTime>
+<generatorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4AC3876E-0EEF-398F-0B79-790503B6342E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="83D55D7B-915A-1874-B686-685CFA226FD9" name="TIPO_TRANSACCION PK">
+<identifier id="B579A704-77B5-BC79-8470-2FE82EAF0D63" name="NOTACREDITO PK">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-08 22:08:59 UTC</createdTime>
+<createdTime>2023-09-14 03:12:01 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>6C8D89C3-A8EA-DD45-F5B7-39E3D706819E</attributeRef>
+<attributeRef>B4DD8032-397C-47D9-2301-E70C472F5C3B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

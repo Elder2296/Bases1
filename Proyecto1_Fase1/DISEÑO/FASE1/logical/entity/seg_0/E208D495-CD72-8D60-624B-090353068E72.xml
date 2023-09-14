@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E208D495-CD72-8D60-624B-090353068E72" name="PEDIDO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E208D495-CD72-8D60-624B-090353068E72" name="VENTA">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:17:39 UTC</createdTime>
+<comment><![CDATA[Ventas de la tienda]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PEDIDO" id="FB4EA02D-4529-6954-A97D-B90C058D8BEF">
+<Attribute name="VENTA_ID" id="FB4EA02D-4529-6954-A97D-B90C058D8BEF">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:18:55 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
@@ -55,30 +56,44 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NIT" id="DCC36678-BE6E-06F9-FF81-A541701C5B30">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:54:31 UTC</createdTime>
+<Attribute name="CLIENTE_ID" id="2E4854AA-A4FC-882C-BE41-1112F3E04E9D">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:21:39 UTC</createdTime>
 <generatorID>E1379022-507F-C033-1F2D-93AB9FC58FDE</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>948639EA-972C-9CBA-5C71-8E4BEE690B8C</referedAttribute>
+<referedAttribute>8721D3E8-AB56-925C-1731-5127193D1F28</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PT" id="5F8FCB03-7C0C-E5A9-14C3-6F56E7F88497">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:59:22 UTC</createdTime>
-<generatorID>CC3F1B58-0BE1-39F1-1DC9-FBD3E50661FC</generatorID>
+<Attribute name="DIRECCION_ID" id="A4736778-25E0-F5B7-C38B-7813E9444D96">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:38:04 UTC</createdTime>
+<generatorID>0CA3C68B-DC89-A7FE-6927-9453219A0595</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>12CB89D3-07C5-31A5-C915-62ADBE385FE0</referedAttribute>
+<referedAttribute>D527EE38-9D5D-4380-4213-145AFCDF5ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ENTREGA_ID" id="66A2F0DE-1520-69CF-7449-7D5901A5071B">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 23:12:33 UTC</createdTime>
+<generatorID>E7EA1D6A-682B-80AA-1361-4752CC255562</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BF7FCF89-FDA5-1CD0-9FAD-DFDC2DE5908A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

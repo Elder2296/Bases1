@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VEN_FAC" directorySegmentName="seg_0" id="33D42AA9-9ED6-F107-38A2-4B3804156C9C">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:43:50 UTC</createdTime>
+<comment><![CDATA[Una venta, va a tener solo una factura]]></comment>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<sourcePk>47E65A53-88E4-3514-6AC6-8A6B27222077</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E208D495-CD72-8D60-624B-090353068E72</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>50C377E0-94D7-F354-A183-C956058FE6C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

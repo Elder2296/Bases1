@@ -14,4 +14,61 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CATEGORIA_ID" id="45921F6E-CB96-6790-AA5B-399078E31021">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 21:58:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="C134D76F-9BDC-F306-9364-8ED4030207B4">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 21:59:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la categoria]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="CB872E0F-9F6C-32DB-16E1-50EBD185BF55">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 21:59:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[breve descripcion de la categoria.]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="686D1E10-5914-E3D3-B230-4CC6B2431525" name="CATEGORIA PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 21:59:07 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>45921F6E-CB96-6790-AA5B-399078E31021</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

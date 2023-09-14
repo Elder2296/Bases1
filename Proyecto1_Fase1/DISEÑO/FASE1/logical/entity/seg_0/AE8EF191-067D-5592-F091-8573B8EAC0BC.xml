@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A794450-5FB8-7CAF-0B32-B12E253BF223" name="PAIS">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:13:22 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE8EF191-067D-5592-F091-8573B8EAC0BC" name="REGION">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:52:02 UTC</createdTime>
+<comment><![CDATA[En base a una region, se tiene una tarifa.]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PAIS" id="8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:24:25 UTC</createdTime>
+<Attribute name="REGION_ID" id="7D2C1667-D836-8AD5-6BD1-15A2DC8ABCFF">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:52:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -27,24 +29,24 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PAIS" id="8630D266-5AE4-4753-5E02-21F8D0FC5132">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:24:40 UTC</createdTime>
+<Attribute name="NOMBRE" id="82517BC9-FA04-66A4-0D66-923279BD25A7">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:52:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la region]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DIVISA" id="CE354EB5-12D3-4358-F1ED-52F90F834450">
+<Attribute name="TARIFA" id="0D255F17-30DC-5D2D-E3AD-CA90465C407E">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-13 22:01:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[Tipo de cambio del pais a comparación del dolar]]></commentInRDBMS>
+<createdTime>2023-09-13 22:53:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[monto de la tarifa]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -56,18 +58,32 @@
 <dataTypeScale>10</dataTypeScale>
 <ownDataTypeParameters>,15,10</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_ST" id="B915C370-EA84-89A7-241B-4D2AE2F49E0B">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:55:07 UTC</createdTime>
+<generatorID>A4EAFD46-EA29-285E-5C81-1E3E06882CAE</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>FC901C49-2E93-3445-689B-55DF436A1A21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0893A680-FC8E-F991-F51B-79BA4E2A8C47" name="PAIS PK">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:24:38 UTC</createdTime>
+<identifier id="F8483209-A627-D411-8086-8FFE06EC84C8" name="REGION PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:52:52 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB</attributeRef>
+<attributeRef>7D2C1667-D836-8AD5-6BD1-15A2DC8ABCFF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

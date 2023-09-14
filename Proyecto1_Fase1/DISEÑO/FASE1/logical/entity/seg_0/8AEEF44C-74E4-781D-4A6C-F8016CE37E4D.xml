@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AEEF44C-74E4-781D-4A6C-F8016CE37E4D" name="HISTORIO_TRANSACCION">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AEEF44C-74E4-781D-4A6C-F8016CE37E4D" name="HISTORICO_TRANSACCION">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 21:58:12 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
@@ -82,15 +82,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TIPO_TRANSACCION_ID" id="8168CF2A-D02D-9DBB-2116-29D052A10622">
+<Attribute name="NOTA_CREDITO_ID" id="666E086A-E2E2-5F7A-E35E-84D21E77638E">
 <createdBy>elder</createdBy>
-<createdTime>2023-09-08 22:13:04 UTC</createdTime>
-<generatorID>8AC53FF3-AF75-2D8B-BDFA-D0D67AB80BC6</generatorID>
+<createdTime>2023-09-14 04:13:07 UTC</createdTime>
+<generatorID>775D59DD-7467-4530-EAD3-72D52AB38118</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<referedAttribute>6C8D89C3-A8EA-DD45-F5B7-39E3D706819E</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B4DD8032-397C-47D9-2301-E70C472F5C3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VENTA_ID" id="F204380B-20AB-954C-32AE-2048FE6DDB43">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:15:17 UTC</createdTime>
+<generatorID>66EFBE77-86B0-2F1E-C059-ED71C18C8B47</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PEDIDO_ID" id="3AA353BC-D591-BABB-DDE3-A0C6BBE02F1D">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 04:33:41 UTC</createdTime>
+<generatorID>3958A43B-DCE0-BE3D-7E09-8F01D5F65D81</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBD0853A-749C-CD3E-F166-EDCCE5E81800" name="PMT">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:57:12 UTC</createdTime>
-<comment><![CDATA[TABLA PAYMENT TYPE, NOS INDICA QUE TIPO DE PAGO UTILIZA EL CLIENTE]]></comment>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B9415C9-064F-B91B-43F2-8A73AD14926A" name="BANCO">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:30:43 UTC</createdTime>
+<comment><![CDATA[Listado de bancos]]></comment>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -16,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PT" id="12CB89D3-07C5-31A5-C915-62ADBE385FE0">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:57:19 UTC</createdTime>
+<Attribute name="BANCO_ID" id="3D0DD98E-C6B1-D4F0-E5EC-11C9E5D09802">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:31:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico del banco]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -28,9 +29,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TIPO" id="274A9278-19ED-BF16-DEF9-9053A287433B">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:57:39 UTC</createdTime>
+<Attribute name="NOMBRE" id="05B4D6F7-E242-FF77-E3CF-77CA9578696A">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:31:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del banco]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
@@ -38,21 +40,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="69EA9AC8-6DB1-1BE6-1D11-FF7F021F1577" name="TIPO_PAGO PK">
-<createdBy>selvi</createdBy>
-<createdTime>2023-09-03 03:57:37 UTC</createdTime>
+<identifier id="9DB6EBEF-ACCA-F03D-1D88-C4330E914DB4" name="BANCO PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:31:32 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>12CB89D3-07C5-31A5-C915-62ADBE385FE0</attributeRef>
+<attributeRef>3D0DD98E-C6B1-D4F0-E5EC-11C9E5D09802</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

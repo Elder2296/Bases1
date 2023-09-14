@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TIE_REG" directorySegmentName="seg_0" id="A4EAFD46-EA29-285E-5C81-1E3E06882CAE">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-13 22:55:07 UTC</createdTime>
+<comment><![CDATA[Una tiene va a tener muchas tarifas definidas por la region que el cliente solicite su entrega]]></comment>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<sourcePk>F621C9E1-04D8-C010-91A3-2854474D13A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C2C1F6E-2BD0-FCBF-247B-8C062FE5AF9C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AE8EF191-067D-5592-F091-8573B8EAC0BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
