@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF680E16-7835-CD8E-68EF-8397B39C4E78" name="GENERO">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:12:42 UTC</createdTime>
+<comment><![CDATA[Almacena informacion de los generos para el registro del cliente]]></comment>
+<commentInRDBMS><![CDATA[Almacena informacion de los generos para el registro del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,11 @@
 <Attribute name="ID_GEN" id="44E6649B-0B5B-D2C0-1D8C-35C0749C976C">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:23:04 UTC</createdTime>
-<commentInRDBMS><![CDATA[									]]></commentInRDBMS>
+<comment><![CDATA[almacena el id del genero a registrar]]></comment>
+<commentInRDBMS><![CDATA[almacena el id del genero a registrar]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,13 +34,17 @@
 <Attribute name="GENERO" id="48154827-C872-B5F4-4FAC-55EE86506EFB">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:23:52 UTC</createdTime>
+<comment><![CDATA[almacena la descripcion del genero]]></comment>
+<commentInRDBMS><![CDATA[almacena la descripcion del genero]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -46,7 +53,7 @@
 <createdTime>2023-09-03 03:23:11 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

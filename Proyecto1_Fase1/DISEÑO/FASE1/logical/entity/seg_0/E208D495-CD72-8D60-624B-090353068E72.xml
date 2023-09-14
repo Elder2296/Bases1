@@ -2,10 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E208D495-CD72-8D60-624B-090353068E72" name="VENTA">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:17:39 UTC</createdTime>
-<comment><![CDATA[Ventas de la tienda]]></comment>
+<comment><![CDATA[esta entidad almacenara datos de la venta]]></comment>
+<commentInRDBMS><![CDATA[esta entidad almacenara datos de la venta]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,9 +20,11 @@
 <Attribute name="VENTA_ID" id="FB4EA02D-4529-6954-A97D-B90C058D8BEF">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:18:55 UTC</createdTime>
+<comment><![CDATA[clave unica de la venta]]></comment>
+<commentInRDBMS><![CDATA[clave unica de la venta]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,10 +34,12 @@
 <Attribute name="ID_ST" id="02C82098-C429-5069-BBAA-DC9FCE5D3388">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:27:06 UTC</createdTime>
+<comment><![CDATA[clave  de la tienda que reliza la venta]]></comment>
+<commentInRDBMS><![CDATA[clave  de la tienda que reliza la venta]]></commentInRDBMS>
 <generatorID>43185D31-6516-7FE3-EF25-BAAFA465C1FD</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>FC901C49-2E93-3445-689B-55DF436A1A21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,10 +50,12 @@
 <Attribute name="ID_CLIENT" id="06268406-9CFE-EC83-F006-665AA6D2DCC3">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:32:08 UTC</createdTime>
+<comment><![CDATA[clave del cliente que realiza la compra]]></comment>
+<commentInRDBMS><![CDATA[clave del cliente que realiza la compra]]></commentInRDBMS>
 <generatorID>EB0042E0-2D88-9720-5688-3308D14B6DF2</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>A416145C-30EB-DE0C-EADA-8D0436D115BA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,10 +66,12 @@
 <Attribute name="CLIENTE_ID" id="2E4854AA-A4FC-882C-BE41-1112F3E04E9D">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:21:39 UTC</createdTime>
+<comment><![CDATA[clave del cliente que realiza la compra]]></comment>
+<commentInRDBMS><![CDATA[clave del cliente que realiza la compra]]></commentInRDBMS>
 <generatorID>E1379022-507F-C033-1F2D-93AB9FC58FDE</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>8721D3E8-AB56-925C-1731-5127193D1F28</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,27 +82,14 @@
 <Attribute name="DIRECCION_ID" id="A4736778-25E0-F5B7-C38B-7813E9444D96">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:38:04 UTC</createdTime>
+<comment><![CDATA[direccion fiscal del cliente]]></comment>
+<commentInRDBMS><![CDATA[direccion fiscal del cliente]]></commentInRDBMS>
 <generatorID>0CA3C68B-DC89-A7FE-6927-9453219A0595</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>D527EE38-9D5D-4380-4213-145AFCDF5ED7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ENTREGA_ID" id="66A2F0DE-1520-69CF-7449-7D5901A5071B">
-<createdBy>elder</createdBy>
-<createdTime>2023-09-13 23:12:33 UTC</createdTime>
-<generatorID>E7EA1D6A-682B-80AA-1361-4752CC255562</generatorID>
-<ownerDesignName>FASE1</ownerDesignName>
-<engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>BF7FCF89-FDA5-1CD0-9FAD-DFDC2DE5908A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -106,7 +102,7 @@
 <createdTime>2023-09-03 03:19:09 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

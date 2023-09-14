@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLI_PED" directorySegmentName="seg_0" id="E1379022-507F-C033-1F2D-93AB9FC58FDE">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:54:31 UTC</createdTime>
+<comment><![CDATA[esta relación permitira identifcar al cleinte que relaliza la compra]]></comment>
+<commentInRDBMS><![CDATA[esta relación permitira identifcar al cleinte que relaliza la compra]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>1C1D76C7-87C6-3236-1F13-0D56B3DFC8A2</sourcePk>
 <identifying>false</identifying>

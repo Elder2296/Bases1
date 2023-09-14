@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AEEF44C-74E4-781D-4A6C-F8016CE37E4D" name="HISTORICO_TRANSACCION">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 21:58:12 UTC</createdTime>
+<comment><![CDATA[Esta entidad alamacena el historico de las transacciones de la tienda]]></comment>
+<commentInRDBMS><![CDATA[Esta entidad alamacena el historico de las transacciones de la tienda]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,11 @@
 <Attribute name="HISTORICO_ID" id="2E183FD8-2FC8-11F5-F037-F0C45DE36F96">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:05:12 UTC</createdTime>
+<comment><![CDATA[Codigo unico del historico]]></comment>
 <commentInRDBMS><![CDATA[Codigo unico del historico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,10 +34,11 @@
 <Attribute name="FECHA_TRANSACCION" id="8EB19005-E01D-EBCE-1D34-5C5CF0AEE845">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 21:59:50 UTC</createdTime>
+<comment><![CDATA[lleva el registro de la fecha de la transaccion]]></comment>
 <commentInRDBMS><![CDATA[lleva el registro de la fecha de la transaccion]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,10 +48,11 @@
 <Attribute name="CANTIDAD" id="8D35B7E3-A4A8-8913-B64F-6263C750266D">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:00:30 UTC</createdTime>
+<comment><![CDATA[Cantidad del producto en la transaccion]]></comment>
 <commentInRDBMS><![CDATA[Cantidad del producto en la transaccion]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -57,10 +62,12 @@
 <Attribute name="ID_ST" id="89B57E89-43A5-29C0-A8E0-A5C38D05C365">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:11:45 UTC</createdTime>
+<comment><![CDATA[contiende el identificador de la tienda que realiza la transacción]]></comment>
+<commentInRDBMS><![CDATA[contiende el identificador de la tienda que realiza la transacción]]></commentInRDBMS>
 <generatorID>FAA079B6-2A3F-A42E-8BDA-D018DFCB6F82</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>FC901C49-2E93-3445-689B-55DF436A1A21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,10 +78,12 @@
 <Attribute name="SKU" id="3772031D-4CB6-96F4-0B78-AEE10E588A8A">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:12:44 UTC</createdTime>
+<comment><![CDATA[contiene el campo del producto con el que se efectua la transacción]]></comment>
+<commentInRDBMS><![CDATA[contiene el campo del producto con el que se efectua la transacción]]></commentInRDBMS>
 <generatorID>5F41AEA2-C62D-4DB8-7EA9-380AB786E3BE</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -85,10 +94,12 @@
 <Attribute name="NOTA_CREDITO_ID" id="666E086A-E2E2-5F7A-E35E-84D21E77638E">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:13:07 UTC</createdTime>
+<comment><![CDATA[campo que relaciona la nota de credito a la que pertenece la transacción]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona la nota de credito a la que pertenece la transacción]]></commentInRDBMS>
 <generatorID>775D59DD-7467-4530-EAD3-72D52AB38118</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>B4DD8032-397C-47D9-2301-E70C472F5C3B</referedAttribute>
@@ -100,10 +111,12 @@
 <Attribute name="VENTA_ID" id="F204380B-20AB-954C-32AE-2048FE6DDB43">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:15:17 UTC</createdTime>
+<comment><![CDATA[campo que relaciona la nota de venta  a la que pertenece la transacción]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona la nota de venta  a la que pertenece la transacción]]></commentInRDBMS>
 <generatorID>66EFBE77-86B0-2F1E-C059-ED71C18C8B47</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
@@ -115,10 +128,12 @@
 <Attribute name="PEDIDO_ID" id="3AA353BC-D591-BABB-DDE3-A0C6BBE02F1D">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:33:41 UTC</createdTime>
+<comment><![CDATA[campo que relaciona un pedido  a la que pertenece la transacción]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona un pedido  a la que pertenece la transacción]]></commentInRDBMS>
 <generatorID>3958A43B-DCE0-BE3D-7E09-8F01D5F65D81</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</referedAttribute>
@@ -134,7 +149,7 @@
 <createdTime>2023-09-08 22:05:52 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

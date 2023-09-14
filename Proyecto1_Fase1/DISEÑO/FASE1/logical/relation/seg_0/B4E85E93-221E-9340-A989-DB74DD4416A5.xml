@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PAIS_ST" directorySegmentName="seg_0" id="B4E85E93-221E-9340-A989-DB74DD4416A5">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:13:49 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar el pais de una tienda]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el pais de una tienda]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>0893A680-FC8E-F991-F51B-79BA4E2A8C47</sourcePk>
 <identifying>false</identifying>

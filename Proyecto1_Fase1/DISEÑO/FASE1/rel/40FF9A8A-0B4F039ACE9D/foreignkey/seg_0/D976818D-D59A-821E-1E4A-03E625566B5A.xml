@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D976818D-D59A-821E-1E4A-03E625566B5A" containerWithKeyObject="87CB6AA5-1F88-2AEF-71C7-E0287C4E3C78" localFKIndex="C45CDA39-610E-AA09-EBA2-98C790B3737C" name="VENTA_CLIENT_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relación permitira identifcar al cleinte que relaliza la compra]]></comment>
+<commentInRDBMS><![CDATA[esta relación permitira identifcar al cleinte que relaliza la compra]]></commentInRDBMS>
+<generatorID>E1379022-507F-C033-1F2D-93AB9FC58FDE</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>CLIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8C624F6-3306-1D70-9CCF-488BDB2E0CC7</referredTableID>
+<keyObject>73DE2BD8-32F0-0D20-5368-73470F01CA8B</keyObject>
+<referredKeyID>73DE2BD8-32F0-0D20-5368-73470F01CA8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLIENTE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

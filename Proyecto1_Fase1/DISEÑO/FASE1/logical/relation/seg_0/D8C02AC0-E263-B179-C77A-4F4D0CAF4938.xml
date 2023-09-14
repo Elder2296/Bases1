@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLI_TAR" directorySegmentName="seg_0" id="D8C02AC0-E263-B179-C77A-4F4D0CAF4938">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:46:17 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identifacar la tarjeta o tarjetas del cliente]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identifacar la tarjeta o tarjetas del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>1C1D76C7-87C6-3236-1F13-0D56B3DFC8A2</sourcePk>
 <identifying>false</identifying>

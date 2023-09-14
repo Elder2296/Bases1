@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8F731F8-4D76-C558-8387-5BDE9DB3EE39" name="TARJETA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Entidad que almacena las tarjetas de los clientes]]></comment>
+<commentInRDBMS><![CDATA[Entidad que almacena las tarjetas de los clientes]]></commentInRDBMS>
+<generatorID>E21796BE-8C6A-0952-171E-944EFFDA71AB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLIENT_CLIENTE_ID" id="3DFD4BBE-F724-609A-2FCF-FC03692B533B">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena el id del cliente que registra su tarjeta]]></comment>
+<commentInRDBMS><![CDATA[almacena el id del cliente que registra su tarjeta]]></commentInRDBMS>
+<generatorID>0FB49452-E83C-441D-B88F-1E2D45917AEC</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C986203E-AD1D-8A96-40D2-69C0AE95BAB9" referredColumn="C8605F5E-051E-3B96-5BCC-2B28C5A5C3ED"/>
+</associations>
+</Column>
+<Column name="NUMERO" id="F7B21E2E-6D5B-3F50-23C7-8203C76DF6C4">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena el numero de tarjeta del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el numero de tarjeta del cliente]]></commentInRDBMS>
+<generatorID>3D9E2632-7A65-5AF8-7DF8-A5F9D7C6D939</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TARJETA" id="5A46B0FE-F33F-042D-4898-08F540AD0116">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Nombre del duenio de la tarjeta]]></comment>
+<commentInRDBMS><![CDATA[Nombre del duenio de la tarjeta]]></commentInRDBMS>
+<generatorID>8B8AFA08-92EF-27ED-1155-7DEEEAFE3B40</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VENCIMIENTO" id="EECAC8D7-A6BD-7B97-2CF2-60722AA27238">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Fecha de vencimiento de la tarjeta]]></comment>
+<commentInRDBMS><![CDATA[Fecha de vencimiento de la tarjeta]]></commentInRDBMS>
+<generatorID>9703A27C-D41B-424F-D3CD-E66840D5CD22</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANCO_BANCO_ID" id="166C7F52-FBFC-42EA-4B13-D1EA3DBB8BA8">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[id del banco que emite la tarjeta]]></comment>
+<commentInRDBMS><![CDATA[id del banco que emite la tarjeta]]></commentInRDBMS>
+<generatorID>8611984E-1EE2-F08C-EC76-42693A38C66A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F835304E-59A4-6149-8965-B3939319E113" referredColumn="03E8AE94-FEF8-CCD1-A62E-25312634AC74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55747227-F650-5390-9E86-FD503D1BD69D" name="TARJETA_BANCO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>5C42EF91-CA4B-D631-E9F8-1227B5833F6D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="166C7F52-FBFC-42EA-4B13-D1EA3DBB8BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6737B2-8FE5-93A3-CE13-C3F8A1F4CF84" name="TARJETA_CLIENT_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>D8C02AC0-E263-B179-C77A-4F4D0CAF4938</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DFD4BBE-F724-609A-2FCF-FC03692B533B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

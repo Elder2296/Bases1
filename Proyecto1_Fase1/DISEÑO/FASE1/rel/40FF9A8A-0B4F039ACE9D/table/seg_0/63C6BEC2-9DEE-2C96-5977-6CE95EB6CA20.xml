@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63C6BEC2-9DEE-2C96-5977-6CE95EB6CA20" name="CLASIFICACION">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[entidad que almacena la clasificacion entre  productos y categorias]]></comment>
+<commentInRDBMS><![CDATA[entidad que almacena la clasificacion entre  productos y categorias]]></commentInRDBMS>
+<generatorID>DA42EBBA-A6BC-0C8F-9CCD-F98FCDE536A4</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_SKU" id="3A0E3EF8-B810-4AA1-C2E4-E64C2037609C">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que relaciona un producto con una categoria]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona un producto con una categoria]]></commentInRDBMS>
+<generatorID>87C3F0C5-6188-4054-B1BF-05848A32B785</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6E06DF6-5697-E579-086C-83FA054B6539" referredColumn="F8329725-81EF-8D63-ADAF-D3FA873B2C5F"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_CATEGORIA_ID" id="40F00358-63B7-E676-97F5-E59A29CBD885">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que relaciona una  una categoria con un producto]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona una  una categoria con un producto]]></commentInRDBMS>
+<generatorID>7FA8A7A3-930A-2BD1-8711-84BAA2F1A9DD</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8141DA5C-7B03-306D-B9F9-86BD4A199733" referredColumn="9193F180-A3F1-A33D-3CD2-A0A4F458DF99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E5DAA9F-CA31-C276-EDEF-5D4311835449" name="CLASIFICACION_CATEGORIA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>CE0AE01D-8139-7808-D981-CAACD3ECE1FD</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40F00358-63B7-E676-97F5-E59A29CBD885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88721C37-A77C-3CD1-7FBE-CB9AB57C7A9B" name="CLASIFICACION_PRODUCTO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>9E1D2060-BA70-698C-2634-FB70A15B4825</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0E3EF8-B810-4AA1-C2E4-E64C2037609C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

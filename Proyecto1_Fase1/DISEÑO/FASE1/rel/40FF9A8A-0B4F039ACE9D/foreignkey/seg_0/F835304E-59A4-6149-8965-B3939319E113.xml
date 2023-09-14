@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F835304E-59A4-6149-8965-B3939319E113" containerWithKeyObject="F8F731F8-4D76-C558-8387-5BDE9DB3EE39" localFKIndex="55747227-F650-5390-9E86-FD503D1BD69D" name="TARJETA_BANCO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar el banco emisor de la tarjeta]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el banco emisor de la tarjeta]]></commentInRDBMS>
+<generatorID>5C42EF91-CA4B-D631-E9F8-1227B5833F6D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>BANCO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46EA5901-C379-22BD-9369-6BE35AA0370F</referredTableID>
+<keyObject>9326D790-85DD-D8B4-12C0-674FC4EB6B16</keyObject>
+<referredKeyID>9326D790-85DD-D8B4-12C0-674FC4EB6B16</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BANCO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

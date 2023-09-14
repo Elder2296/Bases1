@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3ACA1D98-B76A-DE31-5955-6662CF5F6D2E" containerWithKeyObject="AED31D02-DD87-F6C5-8CBA-5FAFF75C9C3E" localFKIndex="D1CD531E-898B-4A5F-D953-8C668707AF31" name="HISTORICO_TRANSACCION_TIENDA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar a que tienda le pertenece las transacciones realizadas en la tabla historico de transacciones]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar a que tienda le pertenece las transacciones realizadas en la tabla historico de transacciones]]></commentInRDBMS>
+<generatorID>FAA079B6-2A3F-A42E-8BDA-D018DFCB6F82</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>TIENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9778ECB-9052-C1DE-DB2F-57A18CA765D5</referredTableID>
+<keyObject>9339432F-43BD-8E54-5FA0-68BD19F43ADE</keyObject>
+<referredKeyID>9339432F-43BD-8E54-5FA0-68BD19F43ADE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ST</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

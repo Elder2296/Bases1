@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ED54B715-BD4B-B928-B9B6-8A8E96C06672" containerWithKeyObject="D2E9C557-236F-ED43-349E-9C52ED08A840" localFKIndex="731B9109-74B3-5252-000C-9BA312E85E07" name="FACTURA_METODO_PAGO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar el metod de pago que el cliente elija]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el metod de pago que el cliente elija]]></commentInRDBMS>
+<generatorID>4B5E11B7-B0B0-8D6E-7196-BC626D4322CB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>METODO_PAGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>06423329-ADA8-BD47-E4DE-6638A8ED325A</referredTableID>
+<keyObject>CCA72122-DFCA-AE5C-806D-F98EC12996F8</keyObject>
+<referredKeyID>CCA72122-DFCA-AE5C-806D-F98EC12996F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>METODO_PAGO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C0267C5-05F1-F808-A7D8-E1C339299247" name="PROVEEDOR">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:18:22 UTC</createdTime>
+<comment><![CDATA[Esta tabla almacena la información de los proveedores]]></comment>
+<commentInRDBMS><![CDATA[Esta tabla almacena la información de los proveedores]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,11 @@
 <Attribute name="PROVEEDOR_ID" id="7DF1DA47-0002-015E-169D-710056A97667">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:18:30 UTC</createdTime>
-<commentInRDBMS><![CDATA[identificacion unica]]></commentInRDBMS>
+<comment><![CDATA[identificacion unica del proveedor]]></comment>
+<commentInRDBMS><![CDATA[identificacion unica del proveedor]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,10 +34,11 @@
 <Attribute name="RAZON_SOCIAL" id="DE92BC98-4213-8943-8AA0-260CAC1B6DA6">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:18:56 UTC</createdTime>
+<comment><![CDATA[Nombre de la empresa que distribuye]]></comment>
 <commentInRDBMS><![CDATA[Nombre de la empresa que distribuye]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,10 +49,11 @@
 <Attribute name="DIRECCION" id="41037D24-D376-226F-A75D-D919F2EF931E">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:19:46 UTC</createdTime>
+<comment><![CDATA[Direccion de las oficinas]]></comment>
 <commentInRDBMS><![CDATA[Direccion de las oficinas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,10 +63,11 @@
 <Attribute name="TELEFONO" id="DEB80122-594C-9410-AF9B-E0DC4165043A">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:20:59 UTC</createdTime>
-<commentInRDBMS><![CDATA[Telefono de contacto]]></commentInRDBMS>
+<comment><![CDATA[Email de contacto con el proveedor]]></comment>
+<commentInRDBMS><![CDATA[Email de contacto con el proveedor]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,10 +79,11 @@
 <Attribute name="EMAIL" id="F78990AE-02B5-B291-54C4-40A09153A0A5">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:21:28 UTC</createdTime>
+<comment><![CDATA[Email de contacto con el proveedor]]></comment>
 <commentInRDBMS><![CDATA[Email de contacto con el proveedor]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,10 +95,11 @@
 <Attribute name="NOMBRE_CONTACTO" id="B8BA525E-C441-6325-71D1-EFDDF89A0CEB">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:22:03 UTC</createdTime>
+<comment><![CDATA[NOMBRE DEL EJECUTIVO DE VENTAS]]></comment>
 <commentInRDBMS><![CDATA[NOMBRE DEL EJECUTIVO DE VENTAS]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,7 +113,7 @@
 <generatorID>D8035FA3-238D-906D-396E-0358F32D9A4B</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -120,7 +128,7 @@
 <createdTime>2023-09-14 04:18:44 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

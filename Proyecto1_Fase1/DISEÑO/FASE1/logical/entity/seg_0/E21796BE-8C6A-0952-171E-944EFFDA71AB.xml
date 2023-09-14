@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E21796BE-8C6A-0952-171E-944EFFDA71AB" name="TARJETA">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:45:42 UTC</createdTime>
+<comment><![CDATA[Entidad que almacena las tarjetas de los clientes]]></comment>
+<commentInRDBMS><![CDATA[Entidad que almacena las tarjetas de los clientes]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,12 @@
 <Attribute name="CLIENTE_ID" id="0FB49452-E83C-441D-B88F-1E2D45917AEC">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:21:39 UTC</createdTime>
+<comment><![CDATA[almacena el id del cliente que registra su tarjeta]]></comment>
+<commentInRDBMS><![CDATA[almacena el id del cliente que registra su tarjeta]]></commentInRDBMS>
 <generatorID>D8C02AC0-E263-B179-C77A-4F4D0CAF4938</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>8721D3E8-AB56-925C-1731-5127193D1F28</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,10 +36,11 @@
 <Attribute name="NUMERO" id="3D9E2632-7A65-5AF8-7DF8-A5F9D7C6D939">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:24:48 UTC</createdTime>
-<commentInRDBMS><![CDATA[Numero de la tarjeta]]></commentInRDBMS>
+<comment><![CDATA[almacena el numero de tarjeta del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el numero de tarjeta del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,10 +51,11 @@
 <Attribute name="NOMBRE_TARJETA" id="8B8AFA08-92EF-27ED-1155-7DEEEAFE3B40">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:26:13 UTC</createdTime>
+<comment><![CDATA[Nombre del duenio de la tarjeta]]></comment>
 <commentInRDBMS><![CDATA[Nombre del duenio de la tarjeta]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,10 +66,11 @@
 <Attribute name="FECHA_VENCIMIENTO" id="9703A27C-D41B-424F-D3CD-E66840D5CD22">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:26:50 UTC</createdTime>
+<comment><![CDATA[Fecha de vencimiento de la tarjeta]]></comment>
 <commentInRDBMS><![CDATA[Fecha de vencimiento de la tarjeta]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,10 +80,12 @@
 <Attribute name="BANCO_ID" id="8611984E-1EE2-F08C-EC76-42693A38C66A">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:32:14 UTC</createdTime>
+<comment><![CDATA[id del banco que emite la tarjeta]]></comment>
+<commentInRDBMS><![CDATA[id del banco que emite la tarjeta]]></commentInRDBMS>
 <generatorID>5C42EF91-CA4B-D631-E9F8-1227B5833F6D</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>3D0DD98E-C6B1-D4F0-E5EC-11C9E5D09802</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

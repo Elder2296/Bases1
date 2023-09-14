@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PRO_INV" directorySegmentName="seg_0" id="67AEEC9A-B054-D836-F545-984F2AA745F6">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:25:09 UTC</createdTime>
+<comment><![CDATA[esta relacion permitira identificar que productos esta en en el inventario de cada tienda]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permitira identificar que productos esta en en el inventario de cada tienda]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>663EF781-E8D4-CABA-3D09-60D982518668</sourcePk>
 <identifying>false</identifying>

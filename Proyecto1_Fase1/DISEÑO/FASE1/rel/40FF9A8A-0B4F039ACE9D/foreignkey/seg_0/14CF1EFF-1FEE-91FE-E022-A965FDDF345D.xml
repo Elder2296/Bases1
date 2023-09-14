@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14CF1EFF-1FEE-91FE-E022-A965FDDF345D" containerWithKeyObject="87CB6AA5-1F88-2AEF-71C7-E0287C4E3C78" localFKIndex="987CF15E-6D24-E986-F7F6-144188719486" name="VENTA_MIDIRECCION_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Una venta va a tener una direccion de entrega, y una direccion de entrega puede estar en muchas ventas.]]></comment>
+<generatorID>0CA3C68B-DC89-A7FE-6927-9453219A0595</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>MIDIRECCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AEFEFD9D-11F3-68B0-DFE6-B4DBB02CF9AF</referredTableID>
+<keyObject>B1C307C7-1FCD-B671-36B4-806C0677812F</keyObject>
+<referredKeyID>B1C307C7-1FCD-B671-36B4-806C0677812F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DIRECCION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

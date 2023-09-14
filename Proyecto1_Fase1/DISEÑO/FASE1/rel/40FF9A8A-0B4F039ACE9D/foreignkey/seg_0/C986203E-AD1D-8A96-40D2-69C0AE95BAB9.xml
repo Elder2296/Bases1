@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C986203E-AD1D-8A96-40D2-69C0AE95BAB9" containerWithKeyObject="F8F731F8-4D76-C558-8387-5BDE9DB3EE39" localFKIndex="0B6737B2-8FE5-93A3-CE13-C3F8A1F4CF84" name="TARJETA_CLIENT_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identifacar la tarjeta o tarjetas del cliente]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identifacar la tarjeta o tarjetas del cliente]]></commentInRDBMS>
+<generatorID>D8C02AC0-E263-B179-C77A-4F4D0CAF4938</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>CLIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8C624F6-3306-1D70-9CCF-488BDB2E0CC7</referredTableID>
+<keyObject>73DE2BD8-32F0-0D20-5368-73470F01CA8B</keyObject>
+<referredKeyID>73DE2BD8-32F0-0D20-5368-73470F01CA8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLIENTE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

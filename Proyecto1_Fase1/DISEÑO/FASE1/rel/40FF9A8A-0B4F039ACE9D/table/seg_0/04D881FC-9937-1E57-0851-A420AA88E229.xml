@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04D881FC-9937-1E57-0851-A420AA88E229" name="PEDIDO">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta tabla contendrá la informacion de los pedidos que se realizan a un proveedor
+]]></commentInRDBMS>
+<generatorID>D4B26C31-A289-9019-CB8B-BDDDEF29BF45</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEDIDO_ID" id="A2CEA8C4-4D49-AE05-FD76-0EB24E94EF17">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[identificador unico del pedido]]></comment>
+<commentInRDBMS><![CDATA[identificador unico del pedido]]></commentInRDBMS>
+<generatorID>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_PROVEEDOR_ID" id="0D7A4155-DD8F-2E08-E4A5-3F46F3A71371">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[identificacion unica del proveedor]]></comment>
+<generatorID>2E298CED-9E51-96A7-9D87-1A0AB8902A43</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D80521F0-CA22-A042-44FB-06241C391B58" referredColumn="E7644D7B-1BA6-8F8C-CDB6-108B5992DB07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93990CD5-323C-667E-2DDC-E8A1CFAB6A01" name="PEDIDO_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>A88FA865-13A9-32FB-F33F-4B58DA6169ED</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2CEA8C4-4D49-AE05-FD76-0EB24E94EF17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD64A4CD-C385-8134-3766-5D9B383FB68A" name="PEDIDO__IDX">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D8035FA3-238D-906D-396E-0358F32D9A4B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0D7A4155-DD8F-2E08-E4A5-3F46F3A71371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6060D757-6021-154B-D1A4-668795E6D561" name="PEDIDO_PROVEEDOR_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>D8035FA3-238D-906D-396E-0358F32D9A4B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D7A4155-DD8F-2E08-E4A5-3F46F3A71371"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

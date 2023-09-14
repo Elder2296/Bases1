@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D80521F0-CA22-A042-44FB-06241C391B58" containerWithKeyObject="04D881FC-9937-1E57-0851-A420AA88E229" localFKIndex="6060D757-6021-154B-D1A4-668795E6D561" name="PEDIDO_PROVEEDOR_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion nos permite saber que proveedor nos proorcionara el pedido realizado]]></comment>
+<commentInRDBMS><![CDATA[esta relacion nos permite saber que proveedor nos proorcionara el pedido realizado]]></commentInRDBMS>
+<generatorID>D8035FA3-238D-906D-396E-0358F32D9A4B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>11B95D45-5D3D-90EE-A66C-1FC7DF556F08</referredTableID>
+<keyObject>15C3D166-FE55-B65D-9818-471382F3E931</keyObject>
+<referredKeyID>15C3D166-FE55-B65D-9818-471382F3E931</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PROVEEDOR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

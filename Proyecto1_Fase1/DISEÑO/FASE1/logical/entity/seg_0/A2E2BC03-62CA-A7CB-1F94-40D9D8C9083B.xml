@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2E2BC03-62CA-A7CB-1F94-40D9D8C9083B" name="DELIVERY">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 23:09:10 UTC</createdTime>
+<comment><![CDATA[esta entidad almacenara la informacion de las entregas, tales como el pedido, quien entrega]]></comment>
+<commentInRDBMS><![CDATA[esta entidad almacenara la informacion de las entregas, tales como el pedido, quien entrega]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +23,7 @@
 <commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,10 +33,12 @@
 <Attribute name="VENTA_ID" id="678B5499-ACBF-523A-2D51-98310360401D">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 23:11:44 UTC</createdTime>
+<comment><![CDATA[clave de la venta a repartir]]></comment>
+<commentInRDBMS><![CDATA[clave de la venta a repartir]]></commentInRDBMS>
 <generatorID>E7EA1D6A-682B-80AA-1361-4752CC255562</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
@@ -46,10 +50,11 @@
 <Attribute name="FECHA_ENTREGA" id="88518333-3A61-A187-B083-561845A428CC">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 23:13:10 UTC</createdTime>
+<comment><![CDATA[fecha de entrega estimada]]></comment>
 <commentInRDBMS><![CDATA[fecha de entrega estimada]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,10 +64,12 @@
 <Attribute name="EMPLEADO_ID" id="5960B7E2-793F-B135-5A0B-75CD270C95A7">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:53:34 UTC</createdTime>
+<comment><![CDATA[campo que almacena el identificador del empleado que realiza el reparto]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena el identificador del empleado que realiza el reparto]]></commentInRDBMS>
 <generatorID>1936E782-081B-4E92-1F6D-9A7000DB9889</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>6127ADED-7F94-452C-BD36-3D11009E1AF8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,7 +84,7 @@
 <createdTime>2023-09-13 23:10:07 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

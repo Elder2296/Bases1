@@ -2,10 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B9415C9-064F-B91B-43F2-8A73AD14926A" name="BANCO">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:30:43 UTC</createdTime>
-<comment><![CDATA[Listado de bancos]]></comment>
+<comment><![CDATA[entidad que almacena la informacion d losl bancos]]></comment>
+<commentInRDBMS><![CDATA[entidad que almacena la informacion d losl bancos]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,10 +20,11 @@
 <Attribute name="BANCO_ID" id="3D0DD98E-C6B1-D4F0-E5EC-11C9E5D09802">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:31:18 UTC</createdTime>
+<comment><![CDATA[Codigo unico del banco]]></comment>
 <commentInRDBMS><![CDATA[Codigo unico del banco]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,10 +34,11 @@
 <Attribute name="NOMBRE" id="05B4D6F7-E242-FF77-E3CF-77CA9578696A">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:31:40 UTC</createdTime>
+<comment><![CDATA[Nombre del banco]]></comment>
 <commentInRDBMS><![CDATA[Nombre del banco]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +52,7 @@
 <createdTime>2023-09-13 22:31:32 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

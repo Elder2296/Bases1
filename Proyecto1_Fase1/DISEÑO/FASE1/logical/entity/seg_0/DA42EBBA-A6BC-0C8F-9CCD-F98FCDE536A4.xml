@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DA42EBBA-A6BC-0C8F-9CCD-F98FCDE536A4" name="CLASIFICACION">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:27:24 UTC</createdTime>
+<comment><![CDATA[entidad que almacena la clasificacion entre  productos y categorias]]></comment>
+<commentInRDBMS><![CDATA[entidad que almacena la clasificacion entre  productos y categorias]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,12 @@
 <Attribute name="SKU" id="87C3F0C5-6188-4054-B1BF-05848A32B785">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:30:08 UTC</createdTime>
+<comment><![CDATA[campo que relaciona un producto con una categoria]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona un producto con una categoria]]></commentInRDBMS>
 <generatorID>9E1D2060-BA70-698C-2634-FB70A15B4825</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,10 +36,12 @@
 <Attribute name="CATEGORIA_ID" id="7FA8A7A3-930A-2BD1-8711-84BAA2F1A9DD">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 21:59:14 UTC</createdTime>
+<comment><![CDATA[campo que relaciona una  una categoria con un producto]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona una  una categoria con un producto]]></commentInRDBMS>
 <generatorID>CE0AE01D-8139-7808-D981-CAACD3ECE1FD</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>45921F6E-CB96-6790-AA5B-399078E31021</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>

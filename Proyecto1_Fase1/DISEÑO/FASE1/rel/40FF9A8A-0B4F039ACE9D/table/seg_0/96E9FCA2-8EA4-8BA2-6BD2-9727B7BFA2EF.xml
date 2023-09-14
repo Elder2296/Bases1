@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96E9FCA2-8EA4-8BA2-6BD2-9727B7BFA2EF" name="INVENTARIO">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>51C6456D-212C-3E64-A1EB-3B5A265325BB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_SKU" id="9A559787-58E3-275C-69C0-29DE62CFFA38">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el identficador unico del producto ]]></commentInRDBMS>
+<generatorID>52C519EF-44A2-3BEA-73D3-C878424E3696</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76DEAD49-BEC2-E83F-D8A1-4B1EA630176B" referredColumn="F8329725-81EF-8D63-ADAF-D3FA873B2C5F"/>
+</associations>
+</Column>
+<Column name="TIENDA_ID_ST" id="E7500966-DB87-C8E9-4701-929D37B72221">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[es el identificador de la tienda a la que pertenece ]]></comment>
+<commentInRDBMS><![CDATA[es el identificador de la tienda a la que pertenece ]]></commentInRDBMS>
+<generatorID>0EC63A43-6CA9-B2DA-AFF9-2DBD13BA866B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D4BFC4F-15B8-BB6B-988A-997F2C9EC416" referredColumn="AFE49ABD-323D-F930-87C8-2D0DE9253D89"/>
+</associations>
+</Column>
+<Column name="DISPONIBILIDAD" id="93FD9689-851D-318A-FB37-3E6610EB612A">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[el campo que indica la cantidad de producto disponible]]></comment>
+<commentInRDBMS><![CDATA[lleva la cantidad existente en unidades de ese producto.]]></commentInRDBMS>
+<generatorID>235A66E7-9B75-A791-23E3-8F9B6B037444</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12EA1C55-D4A1-CE30-1555-40CE96DDD8DC" name="INVENTARIO_PRODUCTO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>67AEEC9A-B054-D836-F545-984F2AA745F6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A559787-58E3-275C-69C0-29DE62CFFA38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="725F1565-A408-77BC-E7EA-1AC3C04A6A5D" name="INVENTARIO_TIENDA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>FEA8CE3C-9181-2833-7E1B-EE0BD020F013</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7500966-DB87-C8E9-4701-929D37B72221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9778ECB-9052-C1DE-DB2F-57A18CA765D5" name="TIENDA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Esta entidad registra la informacion de las tiendas]]></comment>
+<commentInRDBMS><![CDATA[Esta entidad registra la informacion de las tiendas]]></commentInRDBMS>
+<generatorID>8C2C1F6E-2BD0-FCBF-247B-8C062FE5AF9C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAIS_ID_PAIS" id="5441CADB-6531-B71A-B241-133ECEFB5EC6">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[este campo almacena la clave foranea del país al qu pertenece la tienda ]]></comment>
+<commentInRDBMS><![CDATA[este campo almacena la clave foranea del país al qu pertenece la tienda ]]></commentInRDBMS>
+<generatorID>118E5463-BFB7-9A3A-BCDB-DC9EDB523D59</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2E8CE15-4305-4D71-8054-D2A945AF45CC" referredColumn="547A0030-735F-2A91-D809-B80A0ED91F2C"/>
+</associations>
+</Column>
+<Column name="ID_ST" id="AFE49ABD-323D-F930-87C8-2D0DE9253D89">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[este campo almacena el identificador unico de la tienda]]></comment>
+<commentInRDBMS><![CDATA[este campo almacena el identificador unico de la tienda]]></commentInRDBMS>
+<generatorID>FC901C49-2E93-3445-689B-55DF436A1A21</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F3BFD5DD-0F73-4A0F-1349-F88707959C4B">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[describe el nombre de la tienda ]]></comment>
+<commentInRDBMS><![CDATA[describe el nombre de la tienda ]]></commentInRDBMS>
+<generatorID>9D809ED7-C721-8BC6-C854-9E4A7B114DD2</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="2D0EE15D-E78A-2B36-8E1F-24CEA2FC4346">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[descripcion de la direccion de la tienda]]></comment>
+<commentInRDBMS><![CDATA[descripcion de la direccion de la tienda]]></commentInRDBMS>
+<generatorID>76D029AF-3985-17F5-5B2A-8577468315BF</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9339432F-43BD-8E54-5FA0-68BD19F43ADE" name="TIENDA_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>F621C9E1-04D8-C010-91A3-2854474D13A9</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFE49ABD-323D-F930-87C8-2D0DE9253D89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69BC4A7A-099A-9986-55A2-E5209D624ED2" name="TIENDA_PAIS_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>B4E85E93-221E-9340-A989-DB74DD4416A5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5441CADB-6531-B71A-B241-133ECEFB5EC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

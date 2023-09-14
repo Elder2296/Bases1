@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A800A033-60BC-26F0-CDC9-BB478A3D3F95" name="GENERO">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Almacena informacion de los generos para el registro del cliente]]></comment>
+<commentInRDBMS><![CDATA[Almacena informacion de los generos para el registro del cliente]]></commentInRDBMS>
+<generatorID>CF680E16-7835-CD8E-68EF-8397B39C4E78</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_GEN" id="EC9579D0-292C-ED5D-D95E-8CF7FAB33D00">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena el id del genero a registrar]]></comment>
+<commentInRDBMS><![CDATA[almacena el id del genero a registrar]]></commentInRDBMS>
+<generatorID>44E6649B-0B5B-D2C0-1D8C-35C0749C976C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="77A45C71-4079-92AD-F037-28150AB1BA98">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena la descripcion del genero]]></comment>
+<commentInRDBMS><![CDATA[almacena la descripcion del genero]]></commentInRDBMS>
+<generatorID>48154827-C872-B5F4-4FAC-55EE86506EFB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7FD3831-924F-2384-0FEB-0B78954724E2" name="GENERO_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>6260B8F2-AB42-8691-9FC6-269483FCEE34</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC9579D0-292C-ED5D-D95E-8CF7FAB33D00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

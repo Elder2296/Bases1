@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8BA8C1C-9887-67C1-229C-DFCC80D9C0E8" containerWithKeyObject="D09D5358-A079-4370-F7D1-8C069ADEACB9" localFKIndex="79759D9A-9E98-BB4E-18D8-3C9B1AE5142C" name="DETALLE_PRODUCTO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion nos permite conocer que productos estan en el detalle de las ventas]]></comment>
+<commentInRDBMS><![CDATA[esta relacion nos permite conocer que productos estan en el detalle de las ventas]]></commentInRDBMS>
+<generatorID>8843FE21-32F2-7D88-A82F-DB42ED66020D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>PRODUCTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89C99BA7-43C4-2495-25A5-78245F53CE3F</referredTableID>
+<keyObject>7E07AD51-9807-8038-FAF9-F5BAEE07F93A</keyObject>
+<referredKeyID>7E07AD51-9807-8038-FAF9-F5BAEE07F93A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SKU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

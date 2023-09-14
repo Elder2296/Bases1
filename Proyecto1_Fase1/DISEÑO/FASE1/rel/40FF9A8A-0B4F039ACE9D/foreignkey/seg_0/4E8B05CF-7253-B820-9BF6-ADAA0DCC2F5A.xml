@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E8B05CF-7253-B820-9BF6-ADAA0DCC2F5A" containerWithKeyObject="56583316-767B-FD15-23FF-702367918EDF" localFKIndex="97BF2558-6B21-53AA-9689-0E9097411534" name="EMPLEADO_TIENDA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar a que tienda pertence cada empledado]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar a que tienda pertence cada empledado]]></commentInRDBMS>
+<generatorID>815A0F27-9029-90C7-1A55-27A52DF39F92</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>TIENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E9778ECB-9052-C1DE-DB2F-57A18CA765D5</referredTableID>
+<keyObject>9339432F-43BD-8E54-5FA0-68BD19F43ADE</keyObject>
+<referredKeyID>9339432F-43BD-8E54-5FA0-68BD19F43ADE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ST</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

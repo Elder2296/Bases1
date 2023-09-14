@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2E9C557-236F-ED43-349E-9C52ED08A840" name="FACTURA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Entidad que almacena datos de las facturas]]></comment>
+<commentInRDBMS><![CDATA[Entidad que almacena datos de las facturas]]></commentInRDBMS>
+<generatorID>50C377E0-94D7-F354-A183-C956058FE6C6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_FACT" id="8FAB52AC-7164-D907-02A3-A1A2A1FAEE7B">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que almacena el numero de factura el cual es el PK de la entidad]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena el numero de factura el cual es el PK de la entidad]]></commentInRDBMS>
+<generatorID>4AC3876E-0EEF-398F-0B79-790503B6342E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="F6035F2F-27A0-1D42-F554-8DD9DC7A5B13">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Suma total de los detalles + el costo de envio]]></comment>
+<commentInRDBMS><![CDATA[Suma total de los detalles + el costo de envio]]></commentInRDBMS>
+<generatorID>19A899E9-4516-C345-E153-8E342496BFE5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="TOTAL&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_COMPRA" id="C4E40B8C-942C-0120-8AD1-D0AF4CF420CE">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena la fecha de factuación]]></comment>
+<commentInRDBMS><![CDATA[almacena la fecha de factuación]]></commentInRDBMS>
+<generatorID>7C139726-8F82-C579-33C3-FEB2EC311F3C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENT" id="1AD67631-C88D-AF6B-F65F-ED4FFA016EE6">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena el campo id_cliente que relaciona la factura con el cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el campo id_cliente que relaciona la factura con el cliente]]></commentInRDBMS>
+<generatorID>DEE09CF3-8FFB-DA42-E2DE-1900EFC86852</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="CF171078-5FDD-FB2F-D5A2-EEDCF6D421BF">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena la dirección fiscal del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena la dirección fiscal del cliente]]></commentInRDBMS>
+<generatorID>8E07A5C3-85FD-3CED-9F89-ACB5DD2964EF</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODO_PAGO_METODO_PAGO_ID" id="75A78305-BD78-9049-F489-387CBDFC7E8F">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena el metodo de pago seleccionado por el cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el metodo de pago seleccionado por el cliente]]></commentInRDBMS>
+<generatorID>EFDF3DF0-20F3-AC66-75B2-139C9A6AB2C3</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED54B715-BD4B-B928-B9B6-8A8E96C06672" referredColumn="90AE132D-3BD9-158F-7184-BC70BE564295"/>
+</associations>
+</Column>
+<Column name="VENTA_VENTA_ID" id="2EB7F998-A78E-51C8-5922-AA74D03BCE74">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[almacena el campo que relaciona la factura con la venta]]></comment>
+<commentInRDBMS><![CDATA[almacena el campo que relaciona la factura con la venta]]></commentInRDBMS>
+<generatorID>1EBA570C-A017-AB7C-B1E3-DB8AEDF21997</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F79EEDDD-22D6-BAB0-03A7-3D15BB8254E4" referredColumn="C3B21396-5112-3A97-859E-5693DD4B8BEE"/>
+</associations>
+</Column>
+<Column name="COSTO_ENVIO" id="F8510180-A0DC-AD1F-1C00-3EF0FF9BE3FA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Define el costo del envió, si el valor es 0, es porque es compra directa en tienda, si es diferente, es con servicio a domicilio]]></comment>
+<commentInRDBMS><![CDATA[Define el costo del envió, si el valor es 0, es porque es compra directa en tienda, si es diferente, es con servicio a domicilio]]></commentInRDBMS>
+<generatorID>F40D048E-A422-D490-1CC4-D920FC50B10A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="COSTO_ENVIO&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,15,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7227EA06-068D-252E-9B6D-17CFDFE0DC8A" name="FACTURA_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>9810B08F-6456-1C15-A3C2-5F2878E2FF91</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FAB52AC-7164-D907-02A3-A1A2A1FAEE7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FAB4AC0-F14B-D878-AFD3-E81D68395950" name="FACTURA__IDX">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33D42AA9-9ED6-F107-38A2-4B3804156C9C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2EB7F998-A78E-51C8-5922-AA74D03BCE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="731B9109-74B3-5252-000C-9BA312E85E07" name="FACTURA_METODO_PAGO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>4B5E11B7-B0B0-8D6E-7196-BC626D4322CB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75A78305-BD78-9049-F489-387CBDFC7E8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6CC5B0D-E44E-25A4-DED4-843116C0EE29" name="FACTURA_VENTA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>33D42AA9-9ED6-F107-38A2-4B3804156C9C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EB7F998-A78E-51C8-5922-AA74D03BCE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

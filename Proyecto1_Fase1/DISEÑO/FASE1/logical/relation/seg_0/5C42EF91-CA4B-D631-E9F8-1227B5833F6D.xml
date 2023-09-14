@@ -2,10 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_BAN_TAR" directorySegmentName="seg_0" id="5C42EF91-CA4B-D631-E9F8-1227B5833F6D">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:32:14 UTC</createdTime>
-<comment><![CDATA[Un banco puede tener muchas tarjetas]]></comment>
+<comment><![CDATA[esta relacion permite identificar el banco emisor de la tarjeta]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el banco emisor de la tarjeta]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>9DB6EBEF-ACCA-F03D-1D88-C4330E914DB4</sourcePk>
 <identifying>false</identifying>

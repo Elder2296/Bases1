@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B080AEE-8649-6E9F-3AE4-BCC21AC758B5" name="EMPLEADO">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:19:53 UTC</createdTime>
+<comment><![CDATA[Esta entidad almacena la información del empleado]]></comment>
+<commentInRDBMS><![CDATA[Esta entidad almacena la información del empleado]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,12 @@
 <Attribute name="ID_ST" id="5065C5FE-C241-8D11-6FB0-CED228B58BE5">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:27:06 UTC</createdTime>
+<comment><![CDATA[este campo almacena la informacion de la clave foranea de la tienda a la que pertence el empleado]]></comment>
+<commentInRDBMS><![CDATA[este campo almacena la informacion de la clave foranea de la tienda a la que pertence el empleado]]></commentInRDBMS>
 <generatorID>815A0F27-9029-90C7-1A55-27A52DF39F92</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>FC901C49-2E93-3445-689B-55DF436A1A21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,10 +36,11 @@
 <Attribute name="EMPLEADO_ID" id="6127ADED-7F94-452C-BD36-3D11009E1AF8">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:52:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<comment><![CDATA[identificador unico de empleado]]></comment>
+<commentInRDBMS><![CDATA[identificador unico de empleado]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,10 +50,11 @@
 <Attribute name="NOMBRE" id="764CB823-CAD4-CE5A-8C44-B7CC3B9115BB">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:53:36 UTC</createdTime>
+<comment><![CDATA[Nombres del empleado]]></comment>
 <commentInRDBMS><![CDATA[Nombre del empleado]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,10 +65,11 @@
 <Attribute name="APELLIDOS" id="6BBC2F93-4EA6-6DE1-FE2E-1D9ADE9CF9ED">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:54:02 UTC</createdTime>
+<comment><![CDATA[Apellidos del empleado]]></comment>
 <commentInRDBMS><![CDATA[Apellidos del empleado]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,10 +80,12 @@
 <Attribute name="ROL_ID" id="70294EA3-BE45-41F2-95D0-B16571055699">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 05:27:48 UTC</createdTime>
+<comment><![CDATA[clave foranea del rol del empleado]]></comment>
+<commentInRDBMS><![CDATA[clave foranea del rol del empleado]]></commentInRDBMS>
 <generatorID>8D399798-749B-D6F4-898B-31903BB01221</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>DC944D32-7D37-F364-B235-B2BDCAA2B102</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,7 +100,7 @@
 <createdTime>2023-09-14 03:53:06 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

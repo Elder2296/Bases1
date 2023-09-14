@@ -2,9 +2,10 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CAT_PRO" directorySegmentName="seg_0" id="CE0AE01D-8139-7808-D981-CAACD3ECE1FD">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:28:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[esta relacion nos permite identificar a que categoria o categorias pertence un producto]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>686D1E10-5914-E3D3-B230-4CC6B2431525</sourcePk>
 <identifying>false</identifying>

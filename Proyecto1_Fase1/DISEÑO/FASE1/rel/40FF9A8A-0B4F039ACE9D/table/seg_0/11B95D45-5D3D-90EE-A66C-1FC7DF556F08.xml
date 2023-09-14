@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11B95D45-5D3D-90EE-A66C-1FC7DF556F08" name="PROVEEDOR">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Esta tabla almacena la información de los proveedores]]></comment>
+<commentInRDBMS><![CDATA[Esta tabla almacena la información de los proveedores]]></commentInRDBMS>
+<generatorID>2C0267C5-05F1-F808-A7D8-E1C339299247</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROVEEDOR_ID" id="E7644D7B-1BA6-8F8C-CDB6-108B5992DB07">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[identificacion unica del proveedor]]></comment>
+<commentInRDBMS><![CDATA[identificacion unica del proveedor]]></commentInRDBMS>
+<generatorID>7DF1DA47-0002-015E-169D-710056A97667</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAZON_SOCIAL" id="189F82F5-24FC-2369-7600-34985CA660DA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Nombre de la empresa que distribuye]]></comment>
+<commentInRDBMS><![CDATA[Nombre de la empresa que distribuye]]></commentInRDBMS>
+<generatorID>DE92BC98-4213-8943-8AA0-260CAC1B6DA6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="DA5E052B-EC3F-0A78-922C-EE9253A08C6F">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Direccion de las oficinas]]></comment>
+<commentInRDBMS><![CDATA[Direccion de las oficinas]]></commentInRDBMS>
+<generatorID>41037D24-D376-226F-A75D-D919F2EF931E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="696CBB12-87D5-FBAA-04D6-025D86941C06">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Email de contacto con el proveedor]]></comment>
+<commentInRDBMS><![CDATA[Email de contacto con el proveedor]]></commentInRDBMS>
+<generatorID>DEB80122-594C-9410-AF9B-E0DC4165043A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="1F314D93-B5C3-984A-23AC-61D0F4B6D2DF">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Email de contacto con el proveedor]]></comment>
+<commentInRDBMS><![CDATA[Email de contacto con el proveedor]]></commentInRDBMS>
+<generatorID>F78990AE-02B5-B291-54C4-40A09153A0A5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONTACTO" id="C1780EE3-77F4-E560-5CD7-EE461EF67882">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[NOMBRE DEL EJECUTIVO DE VENTAS]]></comment>
+<commentInRDBMS><![CDATA[NOMBRE DEL EJECUTIVO DE VENTAS]]></commentInRDBMS>
+<generatorID>B8BA525E-C441-6325-71D1-EFDDF89A0CEB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEDIDO_ID" id="BD7177DC-26C2-5917-2F0A-BF528E8468F0">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>82F1A0F8-3606-8B92-EF6C-68462AA9F4F6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15C3D166-FE55-B65D-9818-471382F3E931" name="PROVEEDOR_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>7F1901CE-A9FB-5DDA-B46B-C31FA0930FFB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7644D7B-1BA6-8F8C-CDB6-108B5992DB07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

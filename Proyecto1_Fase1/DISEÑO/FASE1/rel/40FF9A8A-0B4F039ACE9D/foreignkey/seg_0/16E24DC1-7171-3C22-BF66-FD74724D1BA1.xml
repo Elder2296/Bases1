@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="16E24DC1-7171-3C22-BF66-FD74724D1BA1" containerWithKeyObject="725CDB28-FD87-60B3-9788-B6143D794378" localFKIndex="5D783E7D-D62E-44EB-5420-D2D617F29DF8" name="DELIVERY_VENTA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion indica si la venta tendrá una entrega a domicilio,Una venta puede o no tener una entrega a domicilio]]></comment>
+<commentInRDBMS><![CDATA[esta relacion indica si la venta tendrá una entrega a domicilio,Una venta puede o no tener una entrega a domicilio]]></commentInRDBMS>
+<generatorID>E7EA1D6A-682B-80AA-1361-4752CC255562</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>VENTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87CB6AA5-1F88-2AEF-71C7-E0287C4E3C78</referredTableID>
+<keyObject>9D31B05A-7AC4-A0C1-8B66-AE0ABE40475E</keyObject>
+<referredKeyID>9D31B05A-7AC4-A0C1-8B66-AE0ABE40475E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>VENTA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

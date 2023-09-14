@@ -2,13 +2,15 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_29" directorySegmentName="seg_0" id="E7EA1D6A-682B-80AA-1361-4752CC255562">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 23:11:44 UTC</createdTime>
-<comment><![CDATA[Una venta puede o no tener una entrega a domicilio]]></comment>
+<comment><![CDATA[esta relacion indica si la venta tendrá una entrega a domicilio,Una venta puede o no tener una entrega a domicilio]]></comment>
+<commentInRDBMS><![CDATA[esta relacion indica si la venta tendrá una entrega a domicilio,Una venta puede o no tener una entrega a domicilio]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>47E65A53-88E4-3514-6AC6-8A6B27222077</sourcePk>
 <targetPk>1348B48B-55CE-8373-60F0-172B6C5BD163</targetPk>
+<dominantRole>E208D495-CD72-8D60-624B-090353068E72</dominantRole>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>

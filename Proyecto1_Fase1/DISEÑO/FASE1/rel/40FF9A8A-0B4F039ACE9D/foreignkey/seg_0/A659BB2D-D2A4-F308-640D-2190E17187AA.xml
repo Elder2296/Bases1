@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A659BB2D-D2A4-F308-640D-2190E17187AA" containerWithKeyObject="E8C624F6-3306-1D70-9CCF-488BDB2E0CC7" localFKIndex="1F140BEB-696C-0569-B560-8E724267118E" name="CLIENT_GENERO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar el genero del cliente cuando se registre]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el genero del cliente cuando se registre]]></commentInRDBMS>
+<generatorID>8FA0B137-EDF2-A1A2-7E73-F366EB768360</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>GENERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A800A033-60BC-26F0-CDC9-BB478A3D3F95</referredTableID>
+<keyObject>C7FD3831-924F-2384-0FEB-0B78954724E2</keyObject>
+<referredKeyID>C7FD3831-924F-2384-0FEB-0B78954724E2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_GEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

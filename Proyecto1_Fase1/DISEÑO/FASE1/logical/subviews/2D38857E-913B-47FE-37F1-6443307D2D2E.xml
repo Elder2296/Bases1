@@ -334,13 +334,13 @@ un pedido tendra una factura.
 <point x="1327" y="1030"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D8035FA3-238D-906D-396E-0358F32D9A4B" otype="Relation" vid_source="DE12B56D-0973-EAB7-3840-1E1350A7EF36" vid_target="91603FC0-2482-658A-E9B2-A4EC9A96F392">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D8035FA3-238D-906D-396E-0358F32D9A4B" otype="Relation" vid_source="91603FC0-2482-658A-E9B2-A4EC9A96F392" vid_target="DE12B56D-0973-EAB7-3840-1E1350A7EF36">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="383" y="554"/>
-<point x="383" y="717"/>
+<point x="398" y="717"/>
+<point x="398" y="554"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D8C02AC0-E263-B179-C77A-4F4D0CAF4938" otype="Relation" vid_source="20759F98-84F7-8CC2-7272-A470452BBEE3" vid_target="CC1D494B-58E1-0E58-03A0-B065E1BF87A0">

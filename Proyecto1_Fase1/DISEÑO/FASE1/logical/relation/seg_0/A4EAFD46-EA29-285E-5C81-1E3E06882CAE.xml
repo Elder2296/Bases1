@@ -3,9 +3,10 @@
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:55:07 UTC</createdTime>
 <comment><![CDATA[Una tiene va a tener muchas tarifas definidas por la region que el cliente solicite su entrega]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identicficar a que region pertenece cada tienda para poder conocer su tarifa de envío]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>F621C9E1-04D8-C010-91A3-2854474D13A9</sourcePk>
 <identifying>false</identifying>

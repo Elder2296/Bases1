@@ -2,10 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_EMP_DEL" directorySegmentName="seg_0" id="1936E782-081B-4E92-1F6D-9A7000DB9889">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 23:10:36 UTC</createdTime>
-<comment><![CDATA[Un empleado puede tener muchas entregas]]></comment>
+<comment><![CDATA[esta relación permite identificar que empleado realiza la entrega, Un empleado puede tener muchas entregas]]></comment>
+<commentInRDBMS><![CDATA[esta relación permite identificar que empleado realiza la entrega, Un empleado puede tener muchas entregas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>4E35C584-4E12-9A95-FE2D-1E595CCF8745</sourcePk>
 <identifying>false</identifying>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D330768-BD96-8605-744E-A1D5A57F1EBF" name="NOTACREDITO">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[lleva la lista de notas de credito]]></comment>
+<commentInRDBMS><![CDATA[lleva la lista de notas de credito]]></commentInRDBMS>
+<generatorID>91FEF5B4-2859-5FCF-2916-C201F180856F</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTA_CREDITO_ID" id="963246E1-7D7E-950C-0452-5AFA6FC5EED0">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[codigo unico de la nota de credito]]></comment>
+<commentInRDBMS><![CDATA[codigo unico de la nota de credito]]></commentInRDBMS>
+<generatorID>B4DD8032-397C-47D9-2301-E70C472F5C3B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="71A7FD03-1437-414A-D14D-E550FB53DAB0">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Fecha en que se realizó la nota de credito]]></comment>
+<commentInRDBMS><![CDATA[Fecha en que se realizó la nota de credito]]></commentInRDBMS>
+<generatorID>91E85898-BD73-4958-5508-25563D95E306</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACTURA_NUM_FACT" id="3034E912-00A8-E9BB-3B50-E698EC6CD70D">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que relaciona la factura con la nota de credito]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona la factura con la nota de credito]]></commentInRDBMS>
+<generatorID>68B587C7-9D61-C081-D311-AC1CD780762E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55EFF556-B427-1F6B-9287-84CDFE1BBD95" referredColumn="8FAB52AC-7164-D907-02A3-A1A2A1FAEE7B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C953A982-9250-6736-F055-711C244B2539" name="NOTACREDITO_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>B579A704-77B5-BC79-8470-2FE82EAF0D63</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="963246E1-7D7E-950C-0452-5AFA6FC5EED0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B54F2BC1-5663-9A0C-FE57-37E64E406901" name="NOTACREDITO__IDX">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3034E912-00A8-E9BB-3B50-E698EC6CD70D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B70A134-080C-8EBB-0271-080F0712B976" name="NOTACREDITO_FACTURA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3034E912-00A8-E9BB-3B50-E698EC6CD70D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

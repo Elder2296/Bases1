@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F79EEDDD-22D6-BAB0-03A7-3D15BB8254E4" containerWithKeyObject="D2E9C557-236F-ED43-349E-9C52ED08A840" localFKIndex="F6CC5B0D-E44E-25A4-DED4-843116C0EE29" name="FACTURA_VENTA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Una venta, va a tener solo una factura]]></comment>
+<generatorID>33D42AA9-9ED6-F107-38A2-4B3804156C9C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>VENTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>87CB6AA5-1F88-2AEF-71C7-E0287C4E3C78</referredTableID>
+<keyObject>9D31B05A-7AC4-A0C1-8B66-AE0ABE40475E</keyObject>
+<referredKeyID>9D31B05A-7AC4-A0C1-8B66-AE0ABE40475E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VENTA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56583316-767B-FD15-23FF-702367918EDF" name="EMPLEADO">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Esta entidad almacena la información del empleado]]></comment>
+<commentInRDBMS><![CDATA[Esta entidad almacena la información del empleado]]></commentInRDBMS>
+<generatorID>5B080AEE-8649-6E9F-3AE4-BCC21AC758B5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIENDA_ID_ST" id="A3A483B3-E12D-D032-E1AD-6CE5687A157C">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[este campo almacena la informacion de la clave foranea de la tienda a la que pertence el empleado]]></comment>
+<commentInRDBMS><![CDATA[este campo almacena la informacion de la clave foranea de la tienda a la que pertence el empleado]]></commentInRDBMS>
+<generatorID>5065C5FE-C241-8D11-6FB0-CED228B58BE5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E8B05CF-7253-B820-9BF6-ADAA0DCC2F5A" referredColumn="AFE49ABD-323D-F930-87C8-2D0DE9253D89"/>
+</associations>
+</Column>
+<Column name="EMPLEADO_ID" id="CD3A8AF1-BC42-91AD-D610-5D16209DEDB0">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[identificador unico de empleado]]></comment>
+<commentInRDBMS><![CDATA[identificador unico de empleado]]></commentInRDBMS>
+<generatorID>6127ADED-7F94-452C-BD36-3D11009E1AF8</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="A9760B80-BF1F-42F8-1964-7311C5F05E1E">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Nombres del empleado]]></comment>
+<commentInRDBMS><![CDATA[Nombre del empleado]]></commentInRDBMS>
+<generatorID>764CB823-CAD4-CE5A-8C44-B7CC3B9115BB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="CE2DC78D-72DC-E19E-16A9-3F589919DA77">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Apellidos del empleado]]></comment>
+<commentInRDBMS><![CDATA[Apellidos del empleado]]></commentInRDBMS>
+<generatorID>6BBC2F93-4EA6-6DE1-FE2E-1D9ADE9CF9ED</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL_ROL_ID" id="29DBFCE2-742A-557B-BA7F-91529E82F58B">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[clave foranea del rol del empleado]]></comment>
+<commentInRDBMS><![CDATA[clave foranea del rol del empleado]]></commentInRDBMS>
+<generatorID>70294EA3-BE45-41F2-95D0-B16571055699</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3797DF54-5954-8D14-34D3-75A66FAAB8A0" referredColumn="9804298C-0001-F31E-24D2-22A11DE12201"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF4106DB-FDCE-9A21-A9DF-C6487219BBBA" name="EMPLEADO_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>4E35C584-4E12-9A95-FE2D-1E595CCF8745</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD3A8AF1-BC42-91AD-D610-5D16209DEDB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="007B9B30-2A77-1339-FF38-9FDBA37C34BD" name="EMPLEADO_ROL_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>8D399798-749B-D6F4-898B-31903BB01221</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29DBFCE2-742A-557B-BA7F-91529E82F58B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97BF2558-6B21-53AA-9689-0E9097411534" name="EMPLEADO_TIENDA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>815A0F27-9029-90C7-1A55-27A52DF39F92</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A483B3-E12D-D032-E1AD-6CE5687A157C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

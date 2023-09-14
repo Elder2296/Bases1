@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROD_DET" directorySegmentName="seg_0" id="8843FE21-32F2-7D88-A82F-DB42ED66020D">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:39:49 UTC</createdTime>
+<comment><![CDATA[esta relacion nos permite conocer que productos estan en el detalle de las ventas]]></comment>
+<commentInRDBMS><![CDATA[esta relacion nos permite conocer que productos estan en el detalle de las ventas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>663EF781-E8D4-CABA-3D09-60D982518668</sourcePk>
 <identifying>false</identifying>

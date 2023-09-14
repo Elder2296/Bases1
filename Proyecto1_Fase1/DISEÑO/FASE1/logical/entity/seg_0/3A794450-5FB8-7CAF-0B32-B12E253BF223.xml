@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A794450-5FB8-7CAF-0B32-B12E253BF223" name="PAIS">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:13:22 UTC</createdTime>
+<comment><![CDATA[Entidad que almacena infromacion de los paises y tasas de cambio]]></comment>
+<commentInRDBMS><![CDATA[Entidad que almacena infromacion de los paises y tasas de cambio]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +20,11 @@
 <Attribute name="ID_PAIS" id="8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:24:25 UTC</createdTime>
+<comment><![CDATA[identificador del pais]]></comment>
+<commentInRDBMS><![CDATA[identificador del pais]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,9 +34,11 @@
 <Attribute name="PAIS" id="8630D266-5AE4-4753-5E02-21F8D0FC5132">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:24:40 UTC</createdTime>
+<comment><![CDATA[nombre del pais]]></comment>
+<commentInRDBMS><![CDATA[nombre del pais]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,10 +50,11 @@
 <Attribute name="DIVISA" id="CE354EB5-12D3-4358-F1ED-52F90F834450">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:01:12 UTC</createdTime>
+<comment><![CDATA[Tipo de cambio del pais a comparación del dolar]]></comment>
 <commentInRDBMS><![CDATA[Tipo de cambio del pais a comparación del dolar]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <constraintName>checkDivis</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,7 +74,7 @@
 <createdTime>2023-09-03 03:24:38 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

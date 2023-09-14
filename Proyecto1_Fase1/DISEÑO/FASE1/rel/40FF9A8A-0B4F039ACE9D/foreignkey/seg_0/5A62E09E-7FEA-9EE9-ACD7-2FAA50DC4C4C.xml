@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5A62E09E-7FEA-9EE9-ACD7-2FAA50DC4C4C" containerWithKeyObject="AED31D02-DD87-F6C5-8CBA-5FAFF75C9C3E" localFKIndex="38B8DB7E-257B-8BCE-28E0-77706A6FA57E" name="HISTORICO_TRANSACCION_PEDIDO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion nos permite mapear los pedidos en la tabal de historico de transacciones]]></comment>
+<commentInRDBMS><![CDATA[esta relacion nos permite mapear los pedidos en la tabal de historico de transacciones]]></commentInRDBMS>
+<generatorID>3958A43B-DCE0-BE3D-7E09-8F01D5F65D81</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>PEDIDO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>04D881FC-9937-1E57-0851-A420AA88E229</referredTableID>
+<keyObject>93990CD5-323C-667E-2DDC-E8A1CFAB6A01</keyObject>
+<referredKeyID>93990CD5-323C-667E-2DDC-E8A1CFAB6A01</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PEDIDO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

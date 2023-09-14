@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0CF33DF5-8ABA-16AA-F144-CF80F6EFF2D7" name="CLIENT">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:52:32 UTC</createdTime>
+<comment><![CDATA[Almacena la informacion de registro del cleinte]]></comment>
+<commentInRDBMS><![CDATA[Almacena la informacion de registro del cleinte]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,11 @@
 <Attribute name="CLIENTE_ID" id="8721D3E8-AB56-925C-1731-5127193D1F28">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 22:21:19 UTC</createdTime>
+<comment><![CDATA[codigo unico]]></comment>
 <commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,10 +34,11 @@
 <Attribute name="NIT" id="948639EA-972C-9CBA-5C71-8E4BEE690B8C">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:52:43 UTC</createdTime>
+<comment><![CDATA[numero de identificacion tributario]]></comment>
 <commentInRDBMS><![CDATA[numero de identificacion tributario]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,11 +49,12 @@
 <Attribute name="NOMBRE" id="B7B144C2-3402-C6A1-FE08-166B9ED2E709">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:53:05 UTC</createdTime>
+<comment><![CDATA[almacena el nombre del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el nombre del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,10 +64,11 @@
 <Attribute name="APELLIDOS" id="35B7FA6F-1687-D4B6-83ED-EDDFC208B64C">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-07 04:48:02 UTC</createdTime>
+<comment><![CDATA[apellidos del cliente]]></comment>
 <commentInRDBMS><![CDATA[apellidos del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,9 +78,11 @@
 <Attribute name="DIRECCION" id="3BB7C97B-1431-052A-CD4C-C69ECDD4ED40">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:53:33 UTC</createdTime>
+<comment><![CDATA[campo que almacena la direccion del cliente]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena la direccion del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,9 +94,11 @@
 <Attribute name="TELFONO" id="3BB6D30A-665A-2FB9-E05F-C1B1836A506A">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:53:47 UTC</createdTime>
+<comment><![CDATA[almacena telefono de contacto del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena telefono de contacto del cliente]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -100,10 +110,12 @@
 <Attribute name="ID_PAIS" id="8767B5F2-4A77-DB14-331F-7EF17431CEE0">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:54:43 UTC</createdTime>
+<comment><![CDATA[almacena el id del pais del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el id del pais del cliente]]></commentInRDBMS>
 <generatorID>D454EFBD-6047-BB76-7259-75BFDC34536C</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -114,10 +126,12 @@
 <Attribute name="ID_GEN" id="0D300AEB-E506-08FE-C838-3DD87AEB2376">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:55:03 UTC</createdTime>
+<comment><![CDATA[almacena el id del genero del cliente]]></comment>
+<commentInRDBMS><![CDATA[almacena el id del genero del cliente]]></commentInRDBMS>
 <generatorID>8FA0B137-EDF2-A1A2-7E73-F366EB768360</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>44E6649B-0B5B-D2C0-1D8C-35C0749C976C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -132,7 +146,7 @@
 <createdTime>2023-09-03 03:53:02 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

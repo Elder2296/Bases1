@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="87CB6AA5-1F88-2AEF-71C7-E0287C4E3C78" name="VENTA">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta entidad almacenara datos de la venta]]></comment>
+<commentInRDBMS><![CDATA[esta entidad almacenara datos de la venta]]></commentInRDBMS>
+<generatorID>E208D495-CD72-8D60-624B-090353068E72</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VENTA_ID" id="C3B21396-5112-3A97-859E-5693DD4B8BEE">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[clave unica de la venta]]></comment>
+<commentInRDBMS><![CDATA[clave unica de la venta]]></commentInRDBMS>
+<generatorID>FB4EA02D-4529-6954-A97D-B90C058D8BEF</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIENDA_ID_ST" id="95FEE86A-B470-2DBD-DE7D-3488C83A778D">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[clave  de la tienda que reliza la venta]]></comment>
+<commentInRDBMS><![CDATA[clave  de la tienda que reliza la venta]]></commentInRDBMS>
+<generatorID>02C82098-C429-5069-BBAA-DC9FCE5D3388</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC49D490-89CB-4ABF-B1FA-FDD28CD9438B" referredColumn="AFE49ABD-323D-F930-87C8-2D0DE9253D89"/>
+</associations>
+</Column>
+<Column name="ID_CLIENT" id="B721BE58-4F4C-6FED-D23F-B0A7BDEEC65F">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[clave del cliente que realiza la compra]]></comment>
+<commentInRDBMS><![CDATA[clave del cliente que realiza la compra]]></commentInRDBMS>
+<generatorID>06268406-9CFE-EC83-F006-665AA6D2DCC3</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENT_CLIENTE_ID" id="8C137D13-6495-BF8D-AFAA-974838D2A4EE">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[clave del cliente que realiza la compra]]></comment>
+<commentInRDBMS><![CDATA[clave del cliente que realiza la compra]]></commentInRDBMS>
+<generatorID>2E4854AA-A4FC-882C-BE41-1112F3E04E9D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D976818D-D59A-821E-1E4A-03E625566B5A" referredColumn="C8605F5E-051E-3B96-5BCC-2B28C5A5C3ED"/>
+</associations>
+</Column>
+<Column name="MIDIRECCION_DIRECCION_ID" id="D4CC8C4A-C10E-ECC8-F00E-D7A328B3E175">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[direccion fiscal del cliente]]></comment>
+<commentInRDBMS><![CDATA[direccion fiscal del cliente]]></commentInRDBMS>
+<generatorID>A4736778-25E0-F5B7-C38B-7813E9444D96</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14CF1EFF-1FEE-91FE-E022-A965FDDF345D" referredColumn="5175A295-DE80-1C84-6DFA-C18985C71DBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D31B05A-7AC4-A0C1-8B66-AE0ABE40475E" name="VENTA_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>47E65A53-88E4-3514-6AC6-8A6B27222077</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3B21396-5112-3A97-859E-5693DD4B8BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C45CDA39-610E-AA09-EBA2-98C790B3737C" name="VENTA_CLIENT_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>E1379022-507F-C033-1F2D-93AB9FC58FDE</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C137D13-6495-BF8D-AFAA-974838D2A4EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="987CF15E-6D24-E986-F7F6-144188719486" name="VENTA_MIDIRECCION_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>0CA3C68B-DC89-A7FE-6927-9453219A0595</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4CC8C4A-C10E-ECC8-F00E-D7A328B3E175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA972C38-CAD4-9CF8-FFEF-EF4AFAAB6512" name="VENTA_TIENDA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>43185D31-6516-7FE3-EF25-BAAFA465C1FD</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95FEE86A-B470-2DBD-DE7D-3488C83A778D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

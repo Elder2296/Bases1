@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C2C1F6E-2BD0-FCBF-247B-8C062FE5AF9C" name="TIENDA">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:19:38 UTC</createdTime>
+<comment><![CDATA[Esta entidad registra la informacion de las tiendas]]></comment>
+<commentInRDBMS><![CDATA[Esta entidad registra la informacion de las tiendas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,12 @@
 <Attribute name="ID_PAIS" id="118E5463-BFB7-9A3A-BCDB-DC9EDB523D59">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:25:03 UTC</createdTime>
+<comment><![CDATA[este campo almacena la clave foranea del país al qu pertenece la tienda ]]></comment>
+<commentInRDBMS><![CDATA[este campo almacena la clave foranea del país al qu pertenece la tienda ]]></commentInRDBMS>
 <generatorID>B4E85E93-221E-9340-A989-DB74DD4416A5</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>8E8FB40E-9525-4915-0BF1-EF2E8E9F5EFB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,9 +36,11 @@
 <Attribute name="ID_ST" id="FC901C49-2E93-3445-689B-55DF436A1A21">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:26:52 UTC</createdTime>
+<comment><![CDATA[este campo almacena el identificador unico de la tienda]]></comment>
+<commentInRDBMS><![CDATA[este campo almacena el identificador unico de la tienda]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,10 +50,11 @@
 <Attribute name="NOMBRE" id="9D809ED7-C721-8BC6-C854-9E4A7B114DD2">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 21:53:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[describe el nombre]]></commentInRDBMS>
+<comment><![CDATA[describe el nombre de la tienda ]]></comment>
+<commentInRDBMS><![CDATA[describe el nombre de la tienda ]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -58,10 +65,11 @@
 <Attribute name="DIRECCION" id="76D029AF-3985-17F5-5B2A-8577468315BF">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 21:54:12 UTC</createdTime>
-<commentInRDBMS><![CDATA[descripcion de la direccion]]></commentInRDBMS>
+<comment><![CDATA[descripcion de la direccion de la tienda]]></comment>
+<commentInRDBMS><![CDATA[descripcion de la direccion de la tienda]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -76,7 +84,7 @@
 <createdTime>2023-09-03 03:27:02 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

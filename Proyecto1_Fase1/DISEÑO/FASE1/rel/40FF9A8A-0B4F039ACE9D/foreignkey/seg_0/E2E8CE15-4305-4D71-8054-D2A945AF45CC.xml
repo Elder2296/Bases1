@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E2E8CE15-4305-4D71-8054-D2A945AF45CC" containerWithKeyObject="E9778ECB-9052-C1DE-DB2F-57A18CA765D5" localFKIndex="69BC4A7A-099A-9986-55A2-E5209D624ED2" name="TIENDA_PAIS_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar el pais de una tienda]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el pais de una tienda]]></commentInRDBMS>
+<generatorID>B4E85E93-221E-9340-A989-DB74DD4416A5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>PAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1ED94915-421C-3FBD-6A45-0EA3750C28D8</referredTableID>
+<keyObject>A3A7878F-A498-8D5D-0334-9AC6CB9C580B</keyObject>
+<referredKeyID>A3A7878F-A498-8D5D-0334-9AC6CB9C580B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PAIS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

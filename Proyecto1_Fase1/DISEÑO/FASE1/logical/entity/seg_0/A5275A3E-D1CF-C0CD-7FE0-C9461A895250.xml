@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A5275A3E-D1CF-C0CD-7FE0-C9461A895250" name="DETALLE">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:36:05 UTC</createdTime>
+<comment><![CDATA[Entidad que almacena el detalle de las ventas]]></comment>
+<commentInRDBMS><![CDATA[Entidad que almacena el detalle de las ventas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,9 +20,11 @@
 <Attribute name="ID_DETALLE" id="ED8A1225-9813-B65A-77A0-592BB50C51C7">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:36:13 UTC</createdTime>
+<comment><![CDATA[identificador del detalle]]></comment>
+<commentInRDBMS><![CDATA[identificador del detalle]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,10 +34,12 @@
 <Attribute name="VENTA_ID" id="2C911AD4-7E8E-23CD-D043-C93B72859F9F">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:39:21 UTC</createdTime>
+<comment><![CDATA[campo que almacena el id de la venta a la que se asocia el detalle]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena el id de la venta a la que se asocia el detalle]]></commentInRDBMS>
 <generatorID>540805F6-38AA-9B85-126E-93D6A480DA8A</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>FB4EA02D-4529-6954-A97D-B90C058D8BEF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,10 +50,12 @@
 <Attribute name="SKU" id="4FF39139-3E6F-08DB-ED66-C28211B0C866">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:39:49 UTC</createdTime>
+<comment><![CDATA[campo que almacena el codigo del producto]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena el codigo del producto]]></commentInRDBMS>
 <generatorID>8843FE21-32F2-7D88-A82F-DB42ED66020D</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,9 +66,11 @@
 <Attribute name="CANTIDAD" id="737C3CF8-CFD6-B069-B8A1-7EB4258C5906">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:40:31 UTC</createdTime>
+<comment><![CDATA[campo que almacena la cantidad de productos comprados]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena la cantidad de productos comprados]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,10 +80,11 @@
 <Attribute name="COSTO" id="0A5A9344-3665-C335-22DF-8ADDDFED9696">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:44:08 UTC</createdTime>
+<comment><![CDATA[cantidad*precio unitario*tasa de cambio]]></comment>
 <commentInRDBMS><![CDATA[cantidad*precio unitario*tasa de cambio]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -92,7 +103,7 @@
 <createdTime>2023-09-03 03:36:53 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

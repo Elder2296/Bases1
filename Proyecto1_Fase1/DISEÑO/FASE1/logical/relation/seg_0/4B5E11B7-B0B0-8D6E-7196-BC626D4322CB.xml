@@ -2,9 +2,11 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MET_FAC" directorySegmentName="seg_0" id="4B5E11B7-B0B0-8D6E-7196-BC626D4322CB">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-08 22:45:09 UTC</createdTime>
+<comment><![CDATA[esta relacion permite identificar el metod de pago que el cliente elija]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite identificar el metod de pago que el cliente elija]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <sourcePk>B90D3C6F-6E19-8779-4841-8E9DC3BE96F1</sourcePk>
 <identifying>false</identifying>

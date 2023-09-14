@@ -4,7 +4,7 @@
 <createdTime>2023-09-03 02:23:48 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +18,11 @@
 <Attribute name="SKU" id="52C519EF-44A2-3BEA-73D3-C878424E3696">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:30:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el identficador unico del producto ]]></commentInRDBMS>
 <generatorID>67AEEC9A-B054-D836-F545-984F2AA745F6</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>A3169A54-9873-59DE-E824-4EA2EE2FEF65</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,10 +33,12 @@
 <Attribute name="ID_ST" id="0EC63A43-6CA9-B2DA-AFF9-2DBD13BA866B">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:27:06 UTC</createdTime>
+<comment><![CDATA[es el identificador de la tienda a la que pertenece ]]></comment>
+<commentInRDBMS><![CDATA[es el identificador de la tienda a la que pertenece ]]></commentInRDBMS>
 <generatorID>FEA8CE3C-9181-2833-7E1B-EE0BD020F013</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <referedAttribute>FC901C49-2E93-3445-689B-55DF436A1A21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,10 +49,11 @@
 <Attribute name="DISPONIBILIDAD" id="235A66E7-9B75-A791-23E3-8F9B6B037444">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-07 03:58:30 UTC</createdTime>
+<comment><![CDATA[el campo que indica la cantidad de producto disponible]]></comment>
 <commentInRDBMS><![CDATA[lleva la cantidad existente en unidades de ese producto.]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

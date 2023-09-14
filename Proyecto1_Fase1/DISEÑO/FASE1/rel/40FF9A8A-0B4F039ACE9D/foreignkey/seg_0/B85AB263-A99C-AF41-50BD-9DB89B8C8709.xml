@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B85AB263-A99C-AF41-50BD-9DB89B8C8709" containerWithKeyObject="AED31D02-DD87-F6C5-8CBA-5FAFF75C9C3E" localFKIndex="B7EFD712-7E46-588A-1497-1A38EC9EB6B8" name="HISTORICO_TRANSACCION_NOTACREDITO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>775D59DD-7467-4530-EAD3-72D52AB38118</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>NOTACREDITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D330768-BD96-8605-744E-A1D5A57F1EBF</referredTableID>
+<keyObject>C953A982-9250-6736-F055-711C244B2539</keyObject>
+<referredKeyID>C953A982-9250-6736-F055-711C244B2539</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>NOTA_CREDITO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

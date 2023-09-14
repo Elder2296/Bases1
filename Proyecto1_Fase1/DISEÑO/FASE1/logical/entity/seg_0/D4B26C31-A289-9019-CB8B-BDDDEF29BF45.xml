@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4B26C31-A289-9019-CB8B-BDDDEF29BF45" name="PEDIDO">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:28:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta tabla contendrá la informacion de los pedidos que se realizan a un proveedor
+]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,11 +20,27 @@
 <Attribute name="PEDIDO_ID" id="F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 04:32:30 UTC</createdTime>
-<commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
+<comment><![CDATA[identificador unico del pedido]]></comment>
+<commentInRDBMS><![CDATA[identificador unico del pedido]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROVEEDOR_ID" id="2E298CED-9E51-96A7-9D87-1A0AB8902A43">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 17:15:44 UTC</createdTime>
+<comment><![CDATA[identificacion unica del proveedor]]></comment>
+<generatorID>D8035FA3-238D-906D-396E-0358F32D9A4B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
+</engineerTo>
+<referedAttribute>7DF1DA47-0002-015E-169D-710056A97667</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -35,7 +53,7 @@
 <createdTime>2023-09-14 04:33:20 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

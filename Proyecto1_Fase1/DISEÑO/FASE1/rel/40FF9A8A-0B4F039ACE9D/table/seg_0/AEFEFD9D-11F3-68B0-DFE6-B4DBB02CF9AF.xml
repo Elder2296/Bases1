@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEFEFD9D-11F3-68B0-DFE6-B4DBB02CF9AF" name="MIDIRECCION">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta entidad almacenara las direcciones del cliente]]></comment>
+<commentInRDBMS><![CDATA[esta entidad almacenara las direcciones del cliente]]></commentInRDBMS>
+<generatorID>7FFB355E-3BCC-F73E-03D5-47B833CEDABA</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIRECCION_ID" id="5175A295-DE80-1C84-6DFA-C18985C71DBC">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[CODIGO UNICO DE DIRECCION]]></comment>
+<commentInRDBMS><![CDATA[CODIGO UNICO DE DIRECCION]]></commentInRDBMS>
+<generatorID>D527EE38-9D5D-4380-4213-145AFCDF5ED7</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="6A4DE077-FD5B-D921-253E-A751F8421AE6">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[direccion de entrega]]></comment>
+<commentInRDBMS><![CDATA[direccion de entrega]]></commentInRDBMS>
+<generatorID>B138D510-FCCD-77DF-0A48-4DCF42B55B22</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENT_CLIENTE_ID" id="9AA427C9-4423-4493-80BB-6756D8EEE92B">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que identifica a que cliente corresponde cada dirección]]></comment>
+<commentInRDBMS><![CDATA[campo que identifica a que cliente corresponde cada dirección]]></commentInRDBMS>
+<generatorID>1E514E6C-A121-84E0-C68C-1E3118D9A88D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EADA2D6-7E62-D180-554A-4F77AF15A37A" referredColumn="C8605F5E-051E-3B96-5BCC-2B28C5A5C3ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1C307C7-1FCD-B671-36B4-806C0677812F" name="MIDIRECCION_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>2DEB3F9F-BA4C-C7BB-7D37-EFDC126E26C5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5175A295-DE80-1C84-6DFA-C18985C71DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DEFA3CF-3308-8B97-4D77-A66881768423" name="MIDIRECCION_CLIENT_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>275F738E-8781-5495-019B-C59B70ACB75E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AA427C9-4423-4493-80BB-6756D8EEE92B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

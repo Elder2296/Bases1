@@ -2,9 +2,11 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE4E0783-5303-5D85-61FF-960378DD125B" name="CATEGORIA">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-03 02:26:30 UTC</createdTime>
+<comment><![CDATA[Esta endidad almacena las categorias de productos disponibles para las tiendas]]></comment>
+<commentInRDBMS><![CDATA[Esta endidad almacena las categorias de productos disponibles para las tiendas]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -18,10 +20,11 @@
 <Attribute name="CATEGORIA_ID" id="45921F6E-CB96-6790-AA5B-399078E31021">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 21:58:54 UTC</createdTime>
+<comment><![CDATA[identificador unico]]></comment>
 <commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,10 +34,11 @@
 <Attribute name="NOMBRE" id="C134D76F-9BDC-F306-9364-8ED4030207B4">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 21:59:25 UTC</createdTime>
+<comment><![CDATA[Nombre de la categoria]]></comment>
 <commentInRDBMS><![CDATA[Nombre de la categoria]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,10 +49,11 @@
 <Attribute name="DESCRIPCION" id="CB872E0F-9F6C-32DB-16E1-50EBD185BF55">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-13 21:59:55 UTC</createdTime>
+<comment><![CDATA[breve descripcion de la categoria.]]></comment>
 <commentInRDBMS><![CDATA[breve descripcion de la categoria.]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,7 +68,7 @@
 <createdTime>2023-09-13 21:59:07 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

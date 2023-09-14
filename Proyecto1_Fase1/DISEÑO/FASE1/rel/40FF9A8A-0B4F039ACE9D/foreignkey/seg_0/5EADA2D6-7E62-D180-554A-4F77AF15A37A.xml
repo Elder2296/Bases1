@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5EADA2D6-7E62-D180-554A-4F77AF15A37A" containerWithKeyObject="AEFEFD9D-11F3-68B0-DFE6-B4DBB02CF9AF" localFKIndex="2DEFA3CF-3308-8B97-4D77-A66881768423" name="MIDIRECCION_CLIENT_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relacion permite  obtener la direccion dentro de la lista de direciones de entrega del cliente]]></comment>
+<commentInRDBMS><![CDATA[esta relacion permite  obtener la direccion dentro de la lista de direciones de entrega del cliente]]></commentInRDBMS>
+<generatorID>275F738E-8781-5495-019B-C59B70ACB75E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>CLIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8C624F6-3306-1D70-9CCF-488BDB2E0CC7</referredTableID>
+<keyObject>73DE2BD8-32F0-0D20-5368-73470F01CA8B</keyObject>
+<referredKeyID>73DE2BD8-32F0-0D20-5368-73470F01CA8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLIENTE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

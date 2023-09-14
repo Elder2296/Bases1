@@ -3,9 +3,10 @@
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:11:11 UTC</createdTime>
 <comment><![CDATA[lleva la lista de notas de credito]]></comment>
+<commentInRDBMS><![CDATA[lleva la lista de notas de credito]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -19,10 +20,11 @@
 <Attribute name="NOTA_CREDITO_ID" id="B4DD8032-397C-47D9-2301-E70C472F5C3B">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:11:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<comment><![CDATA[codigo unico de la nota de credito]]></comment>
+<commentInRDBMS><![CDATA[codigo unico de la nota de credito]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,10 +34,11 @@
 <Attribute name="FECHA" id="91E85898-BD73-4958-5508-25563D95E306">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:12:09 UTC</createdTime>
+<comment><![CDATA[Fecha en que se realizó la nota de credito]]></comment>
 <commentInRDBMS><![CDATA[Fecha en que se realizó la nota de credito]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,10 +48,12 @@
 <Attribute name="NUM_FACT" id="68B587C7-9D61-C081-D311-AC1CD780762E">
 <createdBy>elder</createdBy>
 <createdTime>2023-09-14 03:15:26 UTC</createdTime>
+<comment><![CDATA[campo que relaciona la factura con la nota de credito]]></comment>
+<commentInRDBMS><![CDATA[campo que relaciona la factura con la nota de credito]]></commentInRDBMS>
 <generatorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>4AC3876E-0EEF-398F-0B79-790503B6342E</referedAttribute>
@@ -64,7 +69,7 @@
 <createdTime>2023-09-14 03:12:01 UTC</createdTime>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

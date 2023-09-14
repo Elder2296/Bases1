@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="75EBADC3-94E6-A079-043F-73AD1CAE5FF7" containerWithKeyObject="725CDB28-FD87-60B3-9788-B6143D794378" localFKIndex="9C845F9A-6F18-21E4-3282-54DA1F983D81" name="DELIVERY_EMPLEADO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[esta relación permite identificar que empleado realiza la entrega, Un empleado puede tener muchas entregas]]></comment>
+<commentInRDBMS><![CDATA[esta relación permite identificar que empleado realiza la entrega, Un empleado puede tener muchas entregas]]></commentInRDBMS>
+<generatorID>1936E782-081B-4E92-1F6D-9A7000DB9889</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>56583316-767B-FD15-23FF-702367918EDF</referredTableID>
+<keyObject>BF4106DB-FDCE-9A21-A9DF-C6487219BBBA</keyObject>
+<referredKeyID>BF4106DB-FDCE-9A21-A9DF-C6487219BBBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPLEADO_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

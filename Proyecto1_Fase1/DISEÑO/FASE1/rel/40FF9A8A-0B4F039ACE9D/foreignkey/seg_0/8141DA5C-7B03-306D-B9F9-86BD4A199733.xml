@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8141DA5C-7B03-306D-B9F9-86BD4A199733" containerWithKeyObject="63C6BEC2-9DEE-2C96-5977-6CE95EB6CA20" localFKIndex="7E5DAA9F-CA31-C276-EDEF-5D4311835449" name="CLASIFICACION_CATEGORIA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[esta relacion nos permite identificar a que categoria o categorias pertence un producto]]></commentInRDBMS>
+<generatorID>CE0AE01D-8139-7808-D981-CAACD3ECE1FD</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<referredTableLongName>CATEGORIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2C379EAA-F6C8-93C0-E0B5-735A1D6BDA22</referredTableID>
+<keyObject>1315A7E0-03F6-8F7C-57B1-BAB39A271E44</keyObject>
+<referredKeyID>1315A7E0-03F6-8F7C-57B1-BAB39A271E44</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CATEGORIA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

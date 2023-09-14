@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D09D5358-A079-4370-F7D1-8C069ADEACB9" name="DETALLE">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[Entidad que almacena el detalle de las ventas]]></comment>
+<commentInRDBMS><![CDATA[Entidad que almacena el detalle de las ventas]]></commentInRDBMS>
+<generatorID>A5275A3E-D1CF-C0CD-7FE0-C9461A895250</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DETALLE" id="725578CE-77C4-E199-AE2B-6B3797BAFFBF">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[identificador del detalle]]></comment>
+<commentInRDBMS><![CDATA[identificador del detalle]]></commentInRDBMS>
+<generatorID>ED8A1225-9813-B65A-77A0-592BB50C51C7</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_VENTA_ID" id="6CD075ED-CF4E-7662-1E09-112C8A8D6ADC">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que almacena el id de la venta a la que se asocia el detalle]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena el id de la venta a la que se asocia el detalle]]></commentInRDBMS>
+<generatorID>2C911AD4-7E8E-23CD-D043-C93B72859F9F</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88097BEE-F18D-748D-E863-DC5887F48513" referredColumn="C3B21396-5112-3A97-859E-5693DD4B8BEE"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_SKU" id="C46399BF-C1D7-5DC9-CCA3-3CE8B7429574">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que almacena el codigo del producto]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena el codigo del producto]]></commentInRDBMS>
+<generatorID>4FF39139-3E6F-08DB-ED66-C28211B0C866</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8BA8C1C-9887-67C1-229C-DFCC80D9C0E8" referredColumn="F8329725-81EF-8D63-ADAF-D3FA873B2C5F"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="B3B73188-9C99-FF0A-1423-598A2ED49A7A">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[campo que almacena la cantidad de productos comprados]]></comment>
+<commentInRDBMS><![CDATA[campo que almacena la cantidad de productos comprados]]></commentInRDBMS>
+<generatorID>737C3CF8-CFD6-B069-B8A1-7EB4258C5906</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTO" id="B470886D-7D27-A678-8249-9F4B7BE87B7C">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<comment><![CDATA[cantidad*precio unitario*tasa de cambio]]></comment>
+<commentInRDBMS><![CDATA[cantidad*precio unitario*tasa de cambio]]></commentInRDBMS>
+<generatorID>0A5A9344-3665-C335-22DF-8ADDDFED9696</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="COSTO&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,20,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FBB8F53-6334-ADD8-AB98-08077079CD48" name="DETALLE_PK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>27D75F5D-4E77-C857-6B07-AD626D9345B0</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="725578CE-77C4-E199-AE2B-6B3797BAFFBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E25BB1F4-6F4C-1520-B58F-8E4B41E7FE26" name="DETALLE_VENTA_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>540805F6-38AA-9B85-126E-93D6A480DA8A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CD075ED-CF4E-7662-1E09-112C8A8D6ADC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79759D9A-9E98-BB4E-18D8-3C9B1AE5142C" name="DETALLE_PRODUCTO_FK">
+<createdBy>selvi</createdBy>
+<createdTime>2023-09-14 21:06:47 UTC</createdTime>
+<generatorID>8843FE21-32F2-7D88-A82F-DB42ED66020D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C46399BF-C1D7-5DC9-CCA3-3CE8B7429574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
