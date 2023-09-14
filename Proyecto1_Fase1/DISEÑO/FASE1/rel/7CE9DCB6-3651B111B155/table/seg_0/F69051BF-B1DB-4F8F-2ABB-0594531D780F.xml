@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F69051BF-B1DB-4F8F-2ABB-0594531D780F" name="HISTORICO_TRANSACCION">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>8AEEF44C-74E4-781D-4A6C-F8016CE37E4D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HISTORICO_ID" id="4684470D-6B77-9F6D-ED13-6F03D96A435C">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo unico del historico]]></commentInRDBMS>
+<generatorID>2E183FD8-2FC8-11F5-F037-F0C45DE36F96</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_TRANSACCION" id="BEE2A255-6EE0-5F85-C9E3-149ACD07E890">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[lleva el registro de la fecha de la transaccion]]></commentInRDBMS>
+<generatorID>8EB19005-E01D-EBCE-1D34-5C5CF0AEE845</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="BB3CF63A-99DB-CAE1-FCEC-2FB1056F7756">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad del producto en la transaccion]]></commentInRDBMS>
+<generatorID>8D35B7E3-A4A8-8913-B64F-6263C750266D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIENDA_ID_ST" id="9FBAE934-57A4-7821-8C7D-E651114CC504">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>89B57E89-43A5-29C0-A8E0-A5C38D05C365</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5204DE51-F152-9C98-78DF-157FF7CF89EA" referredColumn="8DF6E8B5-788B-4F30-BC86-CE6EB5DFA920"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_SKU" id="EF72615C-06D3-A309-C153-B47F87E3AC8A">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>3772031D-4CB6-96F4-0B78-AEE10E588A8A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96EF19AF-65B1-9A17-8E5F-1DBE85E9ECA3" referredColumn="0D688097-FA68-0557-F15F-75B33CFD6239"/>
+</associations>
+</Column>
+<Column name="NOTACREDITO_NOTA_CREDITO_ID" id="33383021-A2B3-7736-BD0F-3B65340C8715">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>666E086A-E2E2-5F7A-E35E-84D21E77638E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B4C9810-FFF9-AF5B-2D34-2A07E6F38CFA" referredColumn="BACA8145-7616-2602-C6A7-740C3AEA7DFC"/>
+</associations>
+</Column>
+<Column name="VENTA_VENTA_ID" id="A2342A9A-A059-4CC6-E2DF-840C0366D522">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>F204380B-20AB-954C-32AE-2048FE6DDB43</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D539298E-B7F3-6360-DD8E-789DFD042C4B" referredColumn="1C50BDB9-C2DA-20B0-3774-2FF2CEED3162"/>
+</associations>
+</Column>
+<Column name="PEDIDO_PEDIDO_ID" id="8C9E7FB0-42D7-2139-B3F2-A1937F833713">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>3AA353BC-D591-BABB-DDE3-A0C6BBE02F1D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53F294AA-1547-35BA-32D9-763F878A9AA7" referredColumn="1B3E4DA7-0C9E-C827-A2DD-AA3F2FCEDA31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C632BE08-7491-6116-0632-22064B0DB05E" name="HISTORICO_TRANSACCION_PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>3107AE0F-4180-40ED-8ABA-170C0E731065</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4684470D-6B77-9F6D-ED13-6F03D96A435C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87921BEB-C73D-A34E-66F2-CB245433B5D8" name="HISTORICO_TRANSACCION_PEDIDO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>3958A43B-DCE0-BE3D-7E09-8F01D5F65D81</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C9E7FB0-42D7-2139-B3F2-A1937F833713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA4F953C-45E1-6192-3E58-30B333C2C27E" name="HISTORICO_TRANSACCION_PRODUCTO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>5F41AEA2-C62D-4DB8-7EA9-380AB786E3BE</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF72615C-06D3-A309-C153-B47F87E3AC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA6ECEA8-1D31-D0CC-B3BC-39A837ADCA39" name="HISTORICO_TRANSACCION_TIENDA_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>FAA079B6-2A3F-A42E-8BDA-D018DFCB6F82</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FBAE934-57A4-7821-8C7D-E651114CC504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19A71445-C1A9-6EFD-41D8-432BA7A4CE87" name="HISTORICO_TRANSACCION_NOTACREDITO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>775D59DD-7467-4530-EAD3-72D52AB38118</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33383021-A2B3-7736-BD0F-3B65340C8715"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63FA48D7-7954-A9C4-9736-79537E7C02FC" name="HISTORICO_TRANSACCION_VENTA_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>66EFBE77-86B0-2F1E-C059-ED71C18C8B47</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2342A9A-A059-4CC6-E2DF-840C0366D522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

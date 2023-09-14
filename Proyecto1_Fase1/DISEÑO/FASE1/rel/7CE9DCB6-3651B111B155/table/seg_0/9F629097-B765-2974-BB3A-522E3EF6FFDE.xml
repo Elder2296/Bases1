@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F629097-B765-2974-BB3A-522E3EF6FFDE" name="REGION">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<comment><![CDATA[En base a una region, se tiene una tarifa.]]></comment>
+<generatorID>AE8EF191-067D-5592-F091-8573B8EAC0BC</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REGION_ID" id="905826C8-E345-3766-7F3F-A9ECF8788062">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<generatorID>7D2C1667-D836-8AD5-6BD1-15A2DC8ABCFF</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="5511AF54-AFD3-0083-81EA-1A22E98DAD01">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la region]]></commentInRDBMS>
+<generatorID>82517BC9-FA04-66A4-0D66-923279BD25A7</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TARIFA" id="7B36F4C6-2D7F-DB36-4C27-FDAB637FE700">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[monto de la tarifa]]></commentInRDBMS>
+<generatorID>0D255F17-30DC-5D2D-E3AD-CA90465C407E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="TARIFA&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,15,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIENDA_ID_ST" id="E63CB631-E7BF-0EB7-F111-6D47C3C7A193">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>B915C370-EA84-89A7-241B-4D2AE2F49E0B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E77637F-095F-CADA-B718-D96DC53CD89C" referredColumn="8DF6E8B5-788B-4F30-BC86-CE6EB5DFA920"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0C7336E-04DE-2C01-0249-A6C18826A1A0" name="REGION_PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>F8483209-A627-D411-8086-8FFE06EC84C8</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="905826C8-E345-3766-7F3F-A9ECF8788062"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88E18E2B-17AE-6404-0BC3-F8866E0A2D1F" name="REGION_TIENDA_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>A4EAFD46-EA29-285E-5C81-1E3E06882CAE</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63CB631-E7BF-0EB7-F111-6D47C3C7A193"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -14,6 +14,9 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<propertyMap>
+<property name="DynamicProperty_1" value=""/>
+</propertyMap>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="SKU" id="A3169A54-9873-59DE-E824-4EA2EE2FEF65">
 <createdBy>elder</createdBy>
@@ -54,6 +57,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>11</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="PRECIO&gt;0"/>
+</checkConstraint>
 <ownDataTypeParameters>,11,2</ownDataTypeParameters>
 </Attribute>
 </attributes>

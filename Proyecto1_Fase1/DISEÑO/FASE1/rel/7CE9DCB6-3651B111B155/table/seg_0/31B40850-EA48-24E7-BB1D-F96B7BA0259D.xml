@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31B40850-EA48-24E7-BB1D-F96B7BA0259D" name="ROL">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>A241A7CE-0CB6-E4F0-0675-AFD598499D19</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROL_ID" id="47E9FC79-025B-56F7-BB5F-CB033FB538D1">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<generatorID>DC944D32-7D37-F364-B235-B2BDCAA2B102</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="148CF695-B2CB-9F2B-F3C3-4FB5AE0F6784">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Describe el rol y sus funciones
+]]></commentInRDBMS>
+<generatorID>DD06D3CC-1FD2-934C-51DA-524170D41663</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E0D9AA8-452A-0AF9-6276-2398B5612077" name="ROL_PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>9FEDEB74-B1E4-9A52-F5E7-DC7408BB161C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47E9FC79-025B-56F7-BB5F-CB033FB538D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

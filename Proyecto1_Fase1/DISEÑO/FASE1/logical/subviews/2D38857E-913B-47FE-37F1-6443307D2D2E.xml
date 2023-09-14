@@ -76,7 +76,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="AE8EF191-067D-5592-F091-8573B8EAC0BC" otype="Entity" vid="56D951C1-9336-B532-EECC-438711E63A61">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="730" y="387" width="147" height="83"/>
+<bounds x="728" y="384" width="147" height="83"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CDE2248A-5E50-847A-125F-0B634BED2A84" otype="Entity" vid="3686246F-5055-27E3-7F0A-9C048E0A0906">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -303,8 +303,8 @@ un pedido tendra una factura.
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="644" y="655"/>
-<point x="774" y="470"/>
+<point x="643" y="655"/>
+<point x="772" y="467"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B4E85E93-221E-9340-A989-DB74DD4416A5" otype="Relation" vid_source="5BF92149-F33F-2189-F63A-E4FE7E59AC84" vid_target="306D71A4-48F9-4621-5275-4CEF52EF8924">

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A28CEF0C-25E5-5E82-12E2-14C4A81D03C1" name="PROVEEDOR">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>2C0267C5-05F1-F808-A7D8-E1C339299247</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROVEEDOR_ID" id="E3A55860-C397-E262-6E53-D12E233C3524">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificacion unica]]></commentInRDBMS>
+<generatorID>7DF1DA47-0002-015E-169D-710056A97667</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAZON_SOCIAL" id="EB2837E3-1B4E-44D7-DF08-38A277205016">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la empresa que distribuye]]></commentInRDBMS>
+<generatorID>DE92BC98-4213-8943-8AA0-260CAC1B6DA6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="88A96851-6C46-63E4-27A1-D07ADB6807F2">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Direccion de las oficinas]]></commentInRDBMS>
+<generatorID>41037D24-D376-226F-A75D-D919F2EF931E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="E57DD84D-B95F-B278-137D-200FFBAC33E9">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Telefono de contacto]]></commentInRDBMS>
+<generatorID>DEB80122-594C-9410-AF9B-E0DC4165043A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="3E429431-A277-981C-3F2F-4930F488EE91">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Email de contacto con el proveedor]]></commentInRDBMS>
+<generatorID>F78990AE-02B5-B291-54C4-40A09153A0A5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CONTACTO" id="2EB37655-83E0-8E09-A2D8-5794A1F21C01">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[NOMBRE DEL EJECUTIVO DE VENTAS]]></commentInRDBMS>
+<generatorID>B8BA525E-C441-6325-71D1-EFDDF89A0CEB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEDIDO_PEDIDO_ID" id="1560842F-E137-F55C-5E18-261A713224F7">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>82F1A0F8-3606-8B92-EF6C-68462AA9F4F6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67654152-08B1-942C-6B17-B49792DA6354" referredColumn="1B3E4DA7-0C9E-C827-A2DD-AA3F2FCEDA31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01BB3656-7BCF-4CAB-7C59-8580A0E1FB04" name="PROVEEDOR_PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>7F1901CE-A9FB-5DDA-B46B-C31FA0930FFB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A55860-C397-E262-6E53-D12E233C3524"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF091984-D93A-CAB3-01A5-7E74143391AD" name="PROVEEDOR__IDX">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D8035FA3-238D-906D-396E-0358F32D9A4B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1560842F-E137-F55C-5E18-261A713224F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6635393-86EE-3DD7-1776-E0DD98DED5E5" name="PROVEEDOR_PEDIDO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>D8035FA3-238D-906D-396E-0358F32D9A4B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1560842F-E137-F55C-5E18-261A713224F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

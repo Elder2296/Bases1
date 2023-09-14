@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81036BC4-2781-E602-A777-DA1CC95C27A0" name="FACTURA">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>50C377E0-94D7-F354-A183-C956058FE6C6</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUM_FACT" id="2CD7F33C-BCF1-7099-32D5-32997173F96B">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>4AC3876E-0EEF-398F-0B79-790503B6342E</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL" id="D71130EB-66F3-D11F-D6BD-3BE4B84B5911">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Suma total de los detalles + el costo de envio]]></commentInRDBMS>
+<generatorID>19A899E9-4516-C345-E153-8E342496BFE5</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="TOTAL&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_COMPRA" id="82DB80DA-FFC5-DF49-FAFD-FAEE2707E215">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>7C139726-8F82-C579-33C3-FEB2EC311F3C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENT" id="E3093BCF-6F6C-BDF6-74F4-579430EEAC45">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>DEE09CF3-8FFB-DA42-E2DE-1900EFC86852</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="18ACC285-F9C4-D92B-A53F-CED668C74394">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>8E07A5C3-85FD-3CED-9F89-ACB5DD2964EF</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODO_PAGO_METODO_PAGO_ID" id="CB52F256-6143-F3B9-AA95-944F5A853105">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>EFDF3DF0-20F3-AC66-75B2-139C9A6AB2C3</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43616E01-305E-3591-8FE3-EC46D736D0ED" referredColumn="5E66FDFC-712C-36D7-CD59-8FFE5FB2BFEA"/>
+</associations>
+</Column>
+<Column name="VENTA_VENTA_ID" id="6763CDE1-29E4-B97D-E2BF-996FE130E63B">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>1EBA570C-A017-AB7C-B1E3-DB8AEDF21997</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D941652C-A2E9-50BF-E09F-3E7D554C05AC" referredColumn="1C50BDB9-C2DA-20B0-3774-2FF2CEED3162"/>
+</associations>
+</Column>
+<Column name="COSTO_ENVIO" id="EF9F987E-57E8-D1CA-F942-FB5A1EC326C1">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[Define el costo del envió, si el valor es 0, es porque es compra directa en tienda, si es diferente, es con servicio a domicilio]]></commentInRDBMS>
+<generatorID>F40D048E-A422-D490-1CC4-D920FC50B10A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="COSTO_ENVIO&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,15,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTACREDITO_NOTA_CREDITO_ID" id="27E812A7-4563-78D9-0594-7B6075BD7F8E">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>2CA80E1A-4AD2-5EA1-8D42-17C5227D03CF</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B81E3D1-A723-7441-09A6-B29AEDE32B3E" referredColumn="BACA8145-7616-2602-C6A7-740C3AEA7DFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFC81473-D6EC-65AF-9592-89DEA55B3757" name="FACTURA_PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>9810B08F-6456-1C15-A3C2-5F2878E2FF91</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CD7F33C-BCF1-7099-32D5-32997173F96B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39FBEC8F-E3CD-AB93-D643-01DE38CDBF2F" name="FACTURA__IDX">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="27E812A7-4563-78D9-0594-7B6075BD7F8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0512410-F3A2-29D5-02C7-E95379F2E89C" name="FACTURA__IDXv1">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>33D42AA9-9ED6-F107-38A2-4B3804156C9C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6763CDE1-29E4-B97D-E2BF-996FE130E63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA726467-48D8-A07E-087D-AF2BB30139B5" name="FACTURA_METODO_PAGO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>4B5E11B7-B0B0-8D6E-7196-BC626D4322CB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB52F256-6143-F3B9-AA95-944F5A853105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28C6CDE2-8E57-E785-C7FE-184EF493E125" name="FACTURA_NOTACREDITO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>FC49AAA2-99AD-3C5B-15EA-30F1B419AFBB</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27E812A7-4563-78D9-0594-7B6075BD7F8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4FCAFEE-68BE-6DD3-F358-585821D62FAB" name="FACTURA_VENTA_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>33D42AA9-9ED6-F107-38A2-4B3804156C9C</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6763CDE1-29E4-B97D-E2BF-996FE130E63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

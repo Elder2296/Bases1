@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3826F94C-8704-8920-4977-B886F1BA9123" name="DELIVERY">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>A2E2BC03-62CA-A7CB-1F94-40D9D8C9083B</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ENTREGA_ID" id="0040862C-7278-C74E-AC80-1031FC71EC87">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador unico]]></commentInRDBMS>
+<generatorID>BF7FCF89-FDA5-1CD0-9FAD-DFDC2DE5908A</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_VENTA_ID" id="00AA8563-6657-3CE6-567F-96FFB66847EC">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>678B5499-ACBF-523A-2D51-98310360401D</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AB43C93-04E4-ED19-3DA9-97A1412E17EF" referredColumn="1C50BDB9-C2DA-20B0-3774-2FF2CEED3162"/>
+</associations>
+</Column>
+<Column name="FECHA_ENTREGA" id="9E6E306C-46F6-46DE-B574-CF456BDBAD0B">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de entrega estimada]]></commentInRDBMS>
+<generatorID>88518333-3A61-A187-B083-561845A428CC</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_EMPLEADO_ID" id="E6C54005-F222-DFA3-9B6A-F817FED26D5A">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>5960B7E2-793F-B135-5A0B-75CD270C95A7</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0953B085-D9C6-2883-01E0-14E4C2FEEF88" referredColumn="61D2C54B-9A00-BFFB-D99E-C4B3900AAB78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5D544D3-2843-5A0B-8D64-5094EB76B18E" name="DELIVERY_PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:40 UTC</createdTime>
+<generatorID>1348B48B-55CE-8373-60F0-172B6C5BD163</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0040862C-7278-C74E-AC80-1031FC71EC87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F9E7B20-3FDC-67CE-17D2-221771495E4A" name="DELIVERY__IDX">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E7EA1D6A-682B-80AA-1361-4752CC255562</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="00AA8563-6657-3CE6-567F-96FFB66847EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC57F68C-5BD8-4B42-C90D-CFB50886CEA6" name="DELIVERY_EMPLEADO_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>1936E782-081B-4E92-1F6D-9A7000DB9889</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C54005-F222-DFA3-9B6A-F817FED26D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E2DFBC0-7E60-E6DD-F39B-8CFC806C4C24" name="DELIVERY_VENTA_FK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:44:41 UTC</createdTime>
+<generatorID>E7EA1D6A-682B-80AA-1361-4752CC255562</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00AA8563-6657-3CE6-567F-96FFB66847EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

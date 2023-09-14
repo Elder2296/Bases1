@@ -49,11 +49,15 @@
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
+<constraintName>checkDivis</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
 <dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="DIVISA&gt;0"/>
+</checkConstraint>
 <ownDataTypeParameters>,15,10</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -30,13 +30,20 @@
 <Attribute name="TOTAL" id="19A899E9-4516-C345-E153-8E342496BFE5">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-03 03:42:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Suma total de los detalles + el costo de envio]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
 <item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="TOTAL&gt;0"/>
+</checkConstraint>
+<ownDataTypeParameters>,20,10</ownDataTypeParameters>
 </Attribute>
 <Attribute name="FECHA_COMPRA" id="7C139726-8F82-C579-33C3-FEB2EC311F3C">
 <createdBy>selvi</createdBy>
@@ -120,6 +127,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>15</dataTypePrecision>
 <dataTypeScale>10</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="COSTO_ENVIO&gt;0"/>
+</checkConstraint>
 <ownDataTypeParameters>,15,10</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NOTA_CREDITO_ID" id="2CA80E1A-4AD2-5EA1-8D42-17C5227D03CF">

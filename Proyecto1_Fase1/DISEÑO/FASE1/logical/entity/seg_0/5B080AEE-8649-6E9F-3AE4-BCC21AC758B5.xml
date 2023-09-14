@@ -70,6 +70,20 @@
 <dataTypeSize>150</dataTypeSize>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ROL_ID" id="70294EA3-BE45-41F2-95D0-B16571055699">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:27:48 UTC</createdTime>
+<generatorID>8D399798-749B-D6F4-898B-31903BB01221</generatorID>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<referedAttribute>DC944D32-7D37-F364-B235-B2BDCAA2B102</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4E35C584-4E12-9A95-FE2D-1E595CCF8745" name="EMPLEADO PK">

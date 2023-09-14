@@ -14,4 +14,48 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ROL_ID" id="DC944D32-7D37-F364-B235-B2BDCAA2B102">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:27:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[codigo unico]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="DD06D3CC-1FD2-934C-51DA-524170D41663">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:27:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Describe el rol y sus funciones
+]]></commentInRDBMS>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9FEDEB74-B1E4-9A52-F5E7-DC7408BB161C" name="ROL PK">
+<createdBy>elder</createdBy>
+<createdTime>2023-09-14 05:27:43 UTC</createdTime>
+<ownerDesignName>FASE1</ownerDesignName>
+<engineerTo>
+<item key="7CE9DCB6-BDC6-D070-ED11-3651B111B155" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DC944D32-7D37-F364-B235-B2BDCAA2B102</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
