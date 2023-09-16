@@ -1,11 +1,12 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06423329-ADA8-BD47-E4DE-6638A8ED325A" name="METODO_PAGO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06423329-ADA8-BD47-E4DE-6638A8ED325A" name="TPAGO">
 <createdBy>selvi</createdBy>
 <createdTime>2023-09-14 21:06:47 UTC</createdTime>
 <comment><![CDATA[Lleva los metodos de pago, como pagos con tarjeta, depositos, efectivo.]]></comment>
 <commentInRDBMS><![CDATA[Lleva los metodos de pago, como pagos con tarjeta, depositos, efectivo.]]></commentInRDBMS>
 <generatorID>D8B38EFF-7D9F-25D3-7D9D-DE0D36E090AB</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
+<ordsAlias>metodo_pago</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
