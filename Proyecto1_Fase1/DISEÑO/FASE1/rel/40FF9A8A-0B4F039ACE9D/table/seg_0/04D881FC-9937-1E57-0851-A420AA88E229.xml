@@ -17,11 +17,13 @@
 <commentInRDBMS><![CDATA[identificador unico del pedido]]></commentInRDBMS>
 <generatorID>F284BFFF-C31C-6FD8-2070-19ABE8A6D8F3</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
 </Column>
 <Column name="PROVEEDOR_PROVEEDOR_ID" id="0D7A4155-DD8F-2E08-E4A5-3F46F3A71371">
 <createdBy>selvi</createdBy>
@@ -29,6 +31,7 @@
 <comment><![CDATA[identificacion unica del proveedor]]></comment>
 <generatorID>2E298CED-9E51-96A7-9D87-1A0AB8902A43</generatorID>
 <ownerDesignName>FASE1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

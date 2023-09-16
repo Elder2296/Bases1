@@ -11,7 +11,7 @@
 <referredTableID>11B95D45-5D3D-90EE-A66C-1FC7DF556F08</referredTableID>
 <keyObject>15C3D166-FE55-B65D-9818-471382F3E931</keyObject>
 <referredKeyID>15C3D166-FE55-B65D-9818-471382F3E931</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>PROVEEDOR_ID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
