@@ -6,13 +6,13 @@
 <commentInRDBMS><![CDATA[esta relacion nos permite saber que proveedor nos proorcionara el pedido realizado]]></commentInRDBMS>
 <ownerDesignName>FASE1</ownerDesignName>
 <engineerTo>
-<item key="31CEB18E-6607-EED6-8F56-61DFC40588C4" value="true"/>
+<item key="40FF9A8A-1B85-E6BC-88AA-0B4F039ACE9D" value="true"/>
 </engineerTo>
 <sourcePk>7F1901CE-A9FB-5DDA-B46B-C31FA0930FFB</sourcePk>
 <dominantRole>2C0267C5-05F1-F808-A7D8-E1C339299247</dominantRole>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2C0267C5-05F1-F808-A7D8-E1C339299247</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
